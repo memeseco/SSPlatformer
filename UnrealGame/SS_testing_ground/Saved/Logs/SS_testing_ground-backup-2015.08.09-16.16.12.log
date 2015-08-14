@@ -1,0 +1,834 @@
+﻿[2015.08.09-09.26.02:955][  0]Log file open, 08/09/15 10:26:02
+[2015.08.09-09.26.02:955][  0]LogInit:Display: Running engine for game: SS_testing_ground
+[2015.08.09-09.26.02:955][  0]LogInit:Display: RandInit(-600733445) SRandInit(-600733444).
+[2015.08.09-09.26.02:955][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.09-09.26.02:955][  0]LogStats: Stats thread started
+[2015.08.09-09.26.02:955][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.09-09.26.02:955][  0]LogInit: API Version: 2579680
+[2015.08.09-09.26.02:955][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.09-09.26.02:955][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.09-09.26.02:955][  0]LogInit: Build Configuration: Development
+[2015.08.09-09.26.02:955][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.09-09.26.02:955][  0]LogInit: Command line: 
+[2015.08.09-09.26.02:955][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.09-09.26.02:955][  0]LogInit: Rocket: 1
+[2015.08.09-09.26.02:976][  0]LogInit: Using libcurl 7.41.0
+[2015.08.09-09.26.02:976][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.09-09.26.02:976][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.09-09.26.02:976][  0]LogInit:  - other features:
+[2015.08.09-09.26.02:976][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.09-09.26.02:976][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.09-09.26.02:976][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.09-09.26.02:976][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.09-09.26.02:976][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.09-09.26.02:976][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.09-09.26.02:976][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.09-09.26.02:976][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.09-09.26.02:976][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.09-09.26.02:976][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.09-09.26.02:993][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.09-09.26.03:012][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.09-09.26.03:020][  0]LogInit: Object subsystem initialized
+[2015.08.09-09.26.03:021][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.09-09.26.03:021][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.09-09.26.03:021][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.09-09.26.03:021][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.09-09.26.03:021][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.09-09.26.03:021][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.09-09.26.03:021][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.09-09.26.03:021][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.09-09.26.03:028][  0]LogInit: Computer: DESKTOP-1D88J1H
+[2015.08.09-09.26.03:028][  0]LogInit: User: Alfie
+[2015.08.09-09.26.03:028][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.09-09.26.03:028][  0]LogInit: High frequency timer resolution =3.312787 MHz
+[2015.08.09-09.26.03:028][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.08.09-09.26.03:028][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.09-09.26.03:028][  0]LogMemory: Process Physical Memory: 49.36 MB used, 49.36 MB peak
+[2015.08.09-09.26.03:028][  0]LogMemory: Process Virtual Memory: 24.49 MB used, 24.49 MB peak
+[2015.08.09-09.26.03:028][  0]LogMemory: Physical Memory: 5950.90 MB used, 16337.54 MB total
+[2015.08.09-09.26.03:028][  0]LogMemory: Virtual Memory: 312.55 MB used, 134217728.00 MB total
+[2015.08.09-09.26.03:061][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.09-09.26.03:258][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.09-09.26.03:714][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6800 Series (Feature Level 11_0)
+[2015.08.09-09.26.03:714][  0]LogD3D11RHI: Adapter has 2022MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 2 output[s]
+[2015.08.09-09.26.03:716][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.09-09.26.03:716][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 0 output[s]
+[2015.08.09-09.26.03:716][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.09-09.26.03:720][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.09-09.26.03:720][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.09-09.26.03:720][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.09-09.26.03:733][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.08.09-09.26.03:752][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.09-09.26.04:509][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.09-09.26.04:528][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.09-09.26.04:548][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.09-09.26.04:568][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.09-09.26.04:589][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.09-09.26.04:608][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.09-09.26.04:626][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.09-09.26.04:643][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.09-09.26.04:660][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.09-09.26.04:677][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.09-09.26.04:694][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.09-09.26.04:711][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.09-09.26.04:775][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.09-09.26.04:792][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.09-09.26.04:810][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.09-09.26.04:830][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.09-09.26.04:830][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.09-09.26.05:130][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.09-09.26.05:182][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/Alfie/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.09-09.26.05:182][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alfie/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.09-09.26.05:182][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.09-09.26.05:182][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.09-09.26.05:182][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.09-09.26.05:182][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.09-09.26.05:332][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.09-09.26.05:344][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alfie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.09-09.26.05:600][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.09-09.26.05:681][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.09-09.26.05:681][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.09-09.26.05:717][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.09-09.26.05:717][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.09-09.26.06:109][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.09-09.26.07:218][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.09-09.26.07:668][  0]SourceControl: Info Source control is disabled
+[2015.08.09-09.26.07:669][  0]SourceControl: Info Source control is disabled
+[2015.08.09-09.26.07:684][  0]SourceControl: Info Source control is disabled
+[2015.08.09-09.26.07:698][  0]SourceControl: Info Source control is disabled
+[2015.08.09-09.26.08:005][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.09-09.26.08:005][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.09-09.26.08:086][  0]LogEngine: Initializing Engine...
+[2015.08.09-09.26.08:089][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.09-09.26.08:091][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.09-09.26.08:262][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.09-09.26.08:269][  0]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.09-09.26.08:277][  0]LogInit: FAudioDevice initialized.
+[2015.08.09-09.26.08:305][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Alfie/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.09-09.26.08:308][  0]LogInit: Texture streaming: Disabled
+[2015.08.09-09.26.08:343][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.09-09.26.08:343][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.09-09.26.08:343][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0603a0ca498197d200134a8211b93a4b|2a0db50fdac24c27bddd48b4dba66336|acc92c5e-e7ce-48c9-bbe2-ebe6e3c8e47a
+[2015.08.09-09.26.08:343][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.09-09.26.08:374][  0]LogInit: Transaction tracking system initialized
+[2015.08.09-09.26.08:553][  0]BlueprintLog: New page: Editor Load
+[2015.08.09-09.26.08:599][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.08.09-09.26.08:599][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.09-09.26.09:493][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.09-09.26.09:493][  0]LogConsoleResponse:Display: 
+[2015.08.09-09.26.09:594][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.09-09.26.09:819][  0]SourceControl: Info Source control is disabled
+[2015.08.09-09.26.09:819][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.09-09.26.09:820][  0]LightingResults: New page: Lighting Build
+[2015.08.09-09.26.09:838][  0]MapCheck: New page: Map Check
+[2015.08.09-09.26.09:838][  0]LightingResults: New page: Lighting Build
+[2015.08.09-09.26.09:847][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034AE866200
+[2015.08.09-09.26.10:956][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.09-09.26.10:964][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.09-09.26.11:035][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.09-09.26.11:095][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.098ms to complete.
+[2015.08.09-09.26.11:095][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 1.276
+[2015.08.09-09.26.11:247][  0]LogCollectionManager: Loaded 0 collections in 0.002467 seconds
+[2015.08.09-09.26.11:254][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 1792 classes and 301 folders.
+[2015.08.09-09.26.11:317][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.09-09.26.11:352][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.08.09-09.26.11:373][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.08.09-09.26.11:413][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.09-09.26.11:414][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.09-09.26.11:417][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.09-09.26.11:440][  0]LogLoad: Full Startup: 10.22 seconds (BP compile: 0.49 seconds)
+[2015.08.09-09.26.11:514][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.09-09.26.11:568][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.09-09.26.11:689][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.08.09-09.26.12:325][  7]LogAssetRegistry: Asset discovery search completed in 3.7377 seconds
+[2015.08.09-09.26.12:481][ 16]LogD3D11RHI: InitD3DDevice
+[2015.08.09-09.26.14:455][188]LogD3D11RHI: InitD3DDevice
+[2015.08.09-09.26.23:839][861]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.08.09-09.26.24:716][893]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.08.09-09.26.24:865][898]LogEditorViewport: Clicking on Component (LMB): CameraComponent (SideViewCamera)
+[2015.08.09-09.26.36:496][489]LogEditorViewport: Clicking on Component (LMB): CameraComponent (SideViewCamera)
+[2015.08.09-09.26.58:646][606]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.09-09.26.58:647][606]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.09-09.26.58:720][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.09-09.26.58:803][606]LogPlayLevel: PIE:  Blueprint regeneration took 156 ms (1 blueprints)
+[2015.08.09-09.26.58:805][606]PIE: New page: PIE session: SideScrollerExampleMap (9 Aug 2015 11:26:58)
+[2015.08.09-09.26.58:806][606]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.09-09.26.58:836][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030607s)
+[2015.08.09-09.26.58:837][606]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.09-09.26.58:838][606]LogPlayLevel: PIE: World Init took: (0.001399s)
+[2015.08.09-09.26.58:838][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.032251s)
+[2015.08.09-09.26.58:887][606]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.09-09.26.58:893][606]LogInit: FAudioDevice initialized.
+[2015.08.09-09.26.58:980][606]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.09-09.26.58:988][606]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.09-10.26.58
+[2015.08.09-09.26.58:988][606]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-09.26.58:988][606]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-09.26.58:989][606]LogWorld: Bringing up level for play took: 0.006445
+[2015.08.09-09.26.58:990][606]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.976
+[2015.08.09-09.27.02:440][877]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034A2BCCF40
+[2015.08.09-09.27.03:857][944]LogD3D11RHI: InitD3DDevice
+[2015.08.09-09.27.04:147][944]LogSavePackage: Save=232.685959ms
+[2015.08.09-09.27.04:147][944]LogSavePackage: Moving '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Saved/SideScrollerExampleMapC00D696F4A86DC334BD658BC13A255D7.tmp' to '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2015.08.09-09.59.50:924][ 11]LogEditorViewport: Clicking on Actor (LMB): Cube_Blueprint_C (Enemy_Cube)
+[2015.08.09-09.59.55:617][347]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.19:017][177]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.24:011][767]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.24:056][767]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.24:117][767]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.09-10.00.24:165][767]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.09-10.00.40:076][625]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.40:758][685]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.41:452][749]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.42:789][871]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.43:361][922]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.43:468][929]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.43:917][966]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.44:096][979]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.44:241][990]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.45:113][ 68]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.45:869][139]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.00.45:912][140]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.01.12:939][145]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.01.15:080][391]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.01.15:123][391]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.02.38:491][191]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.02.40:726][454]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.02.43:639][791]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.02.43:782][803]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.03.21:803][181]LogEditorViewport: Clicking on Actor (LMB): Cube_Blueprint_C (Enemy_Cube)
+[2015.08.09-10.03.22:004][192]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.08.09-10.03.22:257][211]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.08.09-10.03.42:065][ 81]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.03.58:152][239]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.09-10.03.58:160][239]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.09-10.03.58:249][239]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.09-10.03.58:267][239]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000349CE38F40
+[2015.08.09-10.03.58:268][239]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000349A5460C0
+[2015.08.09-10.03.58:290][239]LogPlayLevel: PIE:  Blueprint regeneration took 138 ms (1 blueprints)
+[2015.08.09-10.03.58:290][239]PIE: New page: PIE session: SideScrollerExampleMap (9 Aug 2015 12:03:58)
+[2015.08.09-10.03.58:291][239]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.09-10.03.58:321][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030587s)
+[2015.08.09-10.03.58:322][239]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.09-10.03.58:323][239]LogPlayLevel: PIE: World Init took: (0.001637s)
+[2015.08.09-10.03.58:323][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.032441s)
+[2015.08.09-10.03.58:355][239]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.09-10.03.58:361][239]LogInit: FAudioDevice initialized.
+[2015.08.09-10.03.58:401][239]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.09-10.03.58:409][239]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.09-11.03.58
+[2015.08.09-10.03.58:409][239]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-10.03.58:409][239]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-10.03.58:410][239]LogWorld: Bringing up level for play took: 0.006448
+[2015.08.09-10.03.58:411][239]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.397
+[2015.08.09-10.04.03:174][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034D8FA02C0
+[2015.08.09-10.04.37:841][171]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.04.40:565][422]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.04.40:602][422]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.05.20:980][994]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.06.06:251][702]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.06.06:294][702]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.06.14:287][163]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.06.14:325][163]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.06.16:721][305]LogRenderer: Reallocating scene render targets to support 1208x776 (Frame:21509).
+[2015.08.09-10.06.43:666][811]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.06.43:753][811]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.06.43:845][811]LogRenderer: Reallocating scene render targets to support 1208x800 (Frame:23784).
+[2015.08.09-10.07.06:056][654]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.07.10:141][133]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.07.10:189][133]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.07.10:381][133]LogTabManager:Warning: Unable to insert tab 'Document'.
+[2015.08.09-10.07.10:381][133]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'Document'
+[2015.08.09-10.07.10:394][133]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.07.40:442][258]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.07.41:100][329]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.09-10.07.41:111][329]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.09-10.07.41:197][329]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.09-10.07.41:216][329]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034AFAA1300
+[2015.08.09-10.07.41:216][329]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000349C8E9800
+[2015.08.09-10.07.41:216][329]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000349C8500E0
+[2015.08.09-10.07.41:217][329]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000349D5991C0
+[2015.08.09-10.07.41:217][329]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000349E1AE160
+[2015.08.09-10.07.41:238][329]LogPlayLevel: PIE:  Blueprint regeneration took 138 ms (1 blueprints)
+[2015.08.09-10.07.41:238][329]PIE: New page: PIE session: SideScrollerExampleMap (9 Aug 2015 12:07:41)
+[2015.08.09-10.07.41:239][329]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.09-10.07.41:269][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030091s)
+[2015.08.09-10.07.41:270][329]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.09-10.07.41:271][329]LogPlayLevel: PIE: World Init took: (0.001605s)
+[2015.08.09-10.07.41:271][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.031937s)
+[2015.08.09-10.07.41:308][329]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.09-10.07.41:314][329]LogInit: FAudioDevice initialized.
+[2015.08.09-10.07.41:350][329]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.09-10.07.41:358][329]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.09-11.07.41
+[2015.08.09-10.07.41:358][329]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-10.07.41:358][329]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-10.07.41:359][329]LogWorld: Bringing up level for play took: 0.006646
+[2015.08.09-10.07.41:360][329]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.655
+[2015.08.09-10.07.46:165][748]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.46:199][751]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.46:289][759]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.46:334][763]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.46:349][764]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.46:381][767]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.46:429][771]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.46:440][772]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.46:508][778]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.46:542][781]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.46:587][785]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.46:598][786]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.46:610][787]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.46:678][793]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.47:473][864]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.47:484][865]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.47:495][866]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.51:957][263]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.51:969][264]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.51:980][265]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.51:991][266]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.52:002][267]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:053][536]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:064][537]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:086][539]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:109][541]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:131][543]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:142][544]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:153][545]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:165][546]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:176][547]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:232][552]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:243][553]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:266][555]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:277][556]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:288][557]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:299][558]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:311][559]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:333][561]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:356][563]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:367][564]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:378][565]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:389][566]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:401][567]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:412][568]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:423][569]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:435][570]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:462][572]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:471][573]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:482][574]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:493][575]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:504][576]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:516][577]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:528][578]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:539][579]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:550][580]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:562][581]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:572][582]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:606][585]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:618][586]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:629][587]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:639][588]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:673][591]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:685][592]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:707][594]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:740][597]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:752][598]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:763][599]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:774][600]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:785][601]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:797][602]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:808][603]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:819][604]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:830][605]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.55:842][606]LogCharacterMovement: SideScrollerCharacter_178 is stuck and failed to move!
+[2015.08.09-10.07.58:244][819]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.08.03:439][351]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034A82BED40
+[2015.08.09-10.08.26:822][748]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.08.27:436][748]LogSavePackage: Save=385.322693ms
+[2015.08.09-10.08.27:436][748]LogSavePackage: Moving '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Saved/SideScrollerExampleMap_Auto1C26E32E94A91EBB17D2D5F959E9B4641.tmp' to '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2015.08.09-10.08.27:447][748]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.458
+[2015.08.09-10.08.27:447][748]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.458
+[2015.08.09-10.09.10:624][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.08.09-10.09.12:378][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.08.09-10.09.13:764][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.08.09-10.09.21:110][979]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.09.21:515][ 22]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.09.24:275][335]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.09.24:331][335]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.09.41:932][446]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.09.41:973][446]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.09.47:412][631]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.09.47:445][632]LogActorFactory: Actor Factory created Cube
+[2015.08.09-10.09.48:226][695]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.09.48:249][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.09-10.10.08:974][472]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.10.17:138][893]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.13.35:470][248]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.13.35:907][278]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.14.12:448][198]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.14.14:573][344]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.14.37:289][790]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.14.37:816][822]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.14.50:153][651]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.08.09-10.14.54:467][804]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.14.54:908][826]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.14.55:326][850]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.15.26:426][106]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.15.27:061][151]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.15.31:607][433]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.16.26:072][932]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.16.30:880][332]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.16.45:011][151]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.16.45:086][151]LogSavePackage: Save=23.896194ms
+[2015.08.09-10.16.45:086][151]LogSavePackage: Moving '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Saved/Cube_Enemy31EFAE294C9D5CAFEE0D329ACD2B44E4.tmp' to '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Content/StarterContent/Blueprints/Cube_Enemy.uasset'
+[2015.08.09-10.16.45:665][181]BlueprintLog: New page: Compile Cube_Enemy
+[2015.08.09-10.16.45:723][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.08.09-10.16.45:782][181]BlueprintEditorCompileResults: Info [3044.56] Compile of Cube_Enemy successful! [in 117 ms]
+[2015.08.09-10.16.48:427][306]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.16.48:805][343]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.16.49:694][439]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.16.49:732][439]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.17.06:869][202]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.17.06:917][202]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.17.07:132][202]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.17.07:132][202]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.17.09:634][315]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.17.10:112][343]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.17.30:492][690]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.17.31:081][751]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.17.31:757][815]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.17.31:797][815]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.17.40:553][235]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.17.43:233][400]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.17.54:819][ 89]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.18.00:105][372]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.18.00:151][372]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.18.00:364][372]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.18.00:364][372]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.18.02:170][451]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.18.05:716][692]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap.Fire Projectile from Enemy_Cube.K2Node_FunctionEntry_93.EdGraphPin_5369) from referencer (EdGraphPin /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy:EventGraph.K2Node_SpawnActorFromClass_1.EdGraphPin_5825).  Import failed...
+[2015.08.09-10.18.05:716][692]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_93.EdGraphPin_5369''
+[2015.08.09-10.18.05:716][692]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap.Fire Projectile from Enemy_Cube.K2Node_CallFunction_2404 or K2Node_CallFunction /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy:EventGraph.K2Node_CallFunction_2404
+[2015.08.09-10.18.05:716][692]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap.Fire Projectile from Enemy_Cube.K2Node_CallFunction_2404 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2404
+[2015.08.09-10.18.05:716][692]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap.Fire Projectile from Enemy_Cube.K2Node_CallFunction_2404.EdGraphPin_5853) from referencer (EdGraphPin /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy:EventGraph.K2Node_SpawnActorFromClass_1.EdGraphPin_5828).  Import failed...
+[2015.08.09-10.18.05:716][692]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2404.EdGraphPin_5853''
+[2015.08.09-10.18.05:717][692]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap.Fire Projectile from Enemy_Cube.K2Node_CallFunction_2444 or K2Node_CallFunction /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy:EventGraph.K2Node_CallFunction_2444
+[2015.08.09-10.18.05:717][692]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap.Fire Projectile from Enemy_Cube.K2Node_CallFunction_2444.EdGraphPin_5873) from referencer (EdGraphPin /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy:EventGraph.K2Node_CallFunction_2404.EdGraphPin_5850).  Import failed...
+[2015.08.09-10.18.05:717][692]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2444.EdGraphPin_5873''
+[2015.08.09-10.18.05:717][692]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Literal /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap.Fire Projectile from Enemy_Cube.K2Node_Literal_127 or K2Node_Literal /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy:EventGraph.K2Node_Literal_127
+[2015.08.09-10.18.05:717][692]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap.Fire Projectile from Enemy_Cube.K2Node_Literal_127.EdGraphPin_5380) from referencer (EdGraphPin /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy:EventGraph.K2Node_CallFunction_2405.EdGraphPin_5864).  Import failed...
+[2015.08.09-10.18.05:717][692]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Literal_127.EdGraphPin_5380''
+[2015.08.09-10.18.05:717][692]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap.Fire Projectile from Enemy_Cube.K2Node_CallFunction_2444 or K2Node_CallFunction /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy:EventGraph.K2Node_CallFunction_2444
+[2015.08.09-10.18.05:717][692]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap.Fire Projectile from Enemy_Cube.K2Node_CallFunction_2444.EdGraphPin_5871) from referencer (EdGraphPin /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy:EventGraph.K2Node_CallFunction_2405.EdGraphPin_5865).  Import failed...
+[2015.08.09-10.18.05:717][692]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2444.EdGraphPin_5871''
+[2015.08.09-10.18.05:718][692]LogProperty:Warning: Illegal TEXT reference to a private object in external package (Cube_Blueprint_C /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.EnemyCube) from referencer (K2Node_Literal /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy:EventGraph.K2Node_Literal_127).  Import failed...
+[2015.08.09-10.18.05:718][692]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'Cube_Blueprint_C'/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.EnemyCube''
+[2015.08.09-10.18.05:736][692]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.09-10.18.05:737][692]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.09-10.18.25:493][602]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.18.28:486][748]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.18.32:740][ 50]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.18.32:965][ 57]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.18.33:537][ 90]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.18.34:781][168]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.18.38:484][336]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.18.40:370][432]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.18.44:668][692]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.19.00:455][490]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.19.02:100][589]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.19.40:789][775]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.20.00:976][798]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.20.02:242][884]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.20.03:797][972]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.20.34:967][798]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.20.42:394][136]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.20.43:012][176]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.20.43:525][209]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.20.53:538][872]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.20.53:870][891]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.21.04:408][555]BlueprintLog: New page: Compile Cube_Enemy
+[2015.08.09-10.21.04:489][555]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000351D502AC0
+[2015.08.09-10.21.04:489][555]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034836F6660
+[2015.08.09-10.21.04:490][555]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034854F67A0
+[2015.08.09-10.21.04:522][555]BlueprintEditorCompileResults: Info [3303.30] Compile of Cube_Enemy successful! [in 114 ms]
+[2015.08.09-10.21.10:311][807]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.21.23:958][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.08.09-10.21.25:912][854]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.09-10.21.25:921][854]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.09-10.21.26:011][854]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.09-10.21.26:047][854]LogPlayLevel: PIE:  Blueprint regeneration took 135 ms (1 blueprints)
+[2015.08.09-10.21.26:047][854]PIE: New page: PIE session: SideScrollerExampleMap (9 Aug 2015 12:21:26)
+[2015.08.09-10.21.26:048][854]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.09-10.21.26:080][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031988s)
+[2015.08.09-10.21.26:081][854]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.09-10.21.26:081][854]LogPlayLevel: PIE: World Init took: (0.001581s)
+[2015.08.09-10.21.26:082][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.033809s)
+[2015.08.09-10.21.26:115][854]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.09-10.21.26:121][854]LogInit: FAudioDevice initialized.
+[2015.08.09-10.21.26:162][854]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.09-10.21.26:170][854]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.09-11.21.26
+[2015.08.09-10.21.26:170][854]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-10.21.26:171][854]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-10.21.26:171][854]LogWorld: Bringing up level for play took: 0.007202
+[2015.08.09-10.21.26:173][854]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.158
+[2015.08.09-10.21.32:510][410]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.21.34:487][590]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.21.36:317][756]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.21.38:449][950]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.21.45:125][557]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.21.47:307][753]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.21.49:041][909]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.21.51:096][ 95]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.21.54:762][430]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.22.00:173][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000354617AF20
+[2015.08.09-10.22.16:246][928]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.22.37:579][372]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.23.00:822][ 39]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.23.04:323][265]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.23.07:913][502]BlueprintLog: New page: Compile Cube_Enemy
+[2015.08.09-10.23.07:973][502]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.09-10.23.08:016][502]BlueprintEditorCompileResults: Info [3426.80] Compile of Cube_Enemy successful! [in 102 ms]
+[2015.08.09-10.23.12:222][729]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.09-10.23.12:230][729]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.09-10.23.12:351][729]LogPlayLevel: PIE:  Blueprint regeneration took 129 ms (1 blueprints)
+[2015.08.09-10.23.12:351][729]PIE: New page: PIE session: SideScrollerExampleMap (9 Aug 2015 12:23:12)
+[2015.08.09-10.23.12:352][729]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.09-10.23.12:382][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030479s)
+[2015.08.09-10.23.12:383][729]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.09-10.23.12:384][729]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2015.08.09-10.23.12:384][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.032017s)
+[2015.08.09-10.23.12:416][729]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.09-10.23.12:422][729]LogInit: FAudioDevice initialized.
+[2015.08.09-10.23.12:456][729]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.09-10.23.12:463][729]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.09-11.23.12
+[2015.08.09-10.23.12:464][729]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-10.23.12:464][729]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-10.23.12:465][729]LogWorld: Bringing up level for play took: 0.006977
+[2015.08.09-10.23.12:466][729]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.451
+[2015.08.09-10.23.16:879][ 63]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.16:879][ 63]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.16:879][ 63]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.16:879][ 63]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.18:861][219]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.18:861][219]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.18:861][219]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.18:861][219]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.21:390][416]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.21:390][416]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.21:391][416]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.21:391][416]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.23:468][580]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.23:469][580]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.23:469][580]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.23:469][580]LogBlueprintUserMessages: Enemy Cube collision fail
+[2015.08.09-10.23.25:597][739]LogScriptCore: Script call stack:
+	Function /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy_C:ReceiveActorBeginOverlap
+	Function /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy_C:ExecuteUbergraph_Cube_Enemy
+
+[2015.08.09-10.23.25:597][739]LogScript:Warning: Infinite script recursion (250 calls) detected
+	Cube_Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Cube_Enemy_1134
+	Function /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy_C:ExecuteUbergraph_Cube_Enemy:0000
+[2015.08.09-10.23.25:597][739]PIE:Error: Error Infinite Loop detected in  Cube_Enemy , asserted during  OnComponentBeginOverlap (CubeEnemyCollisionBox) with the following  Call Stack
+[2015.08.09-10.23.26:919][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034AF08E980
+[2015.08.09-10.23.26:919][739]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.23.44:792][855]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.23.45:375][887]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.23.46:497][941]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.23.47:234][978]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.24.13:790][553]LogEditorViewport: Clicking on Actor (LMB): Cube_Blueprint_C (Enemy Cube)
+[2015.08.09-10.24.15:924][669]LogEditorViewport: Clicking on Actor (LMB): Cube_Blueprint_C (Enemy Cube)
+[2015.08.09-10.24.42:159][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.08.09-10.24.47:720][406]LogEditorViewport: Clicking on Actor (LMB): Cube_Enemy_C (Cube_Enemy)
+[2015.08.09-10.25.10:873][703]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Pillar_02_Mesh)
+[2015.08.09-10.25.10:910][703]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.25.11:892][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.08.09-10.25.12:650][791]LogEditorViewport: Clicking on Actor (LMB): Cube_Enemy_C (Cube_Enemy)
+[2015.08.09-10.25.16:129][990]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.08.09-10.25.21:119][240]LogRenderer: Reallocating scene render targets to support 1208x904 (Frame:84821).
+[2015.08.09-10.25.31:655][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.09-10.25.31:655][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.08.09-10.25.40:875][ 11]BlueprintLog: New page: Compile Cube_Enemy
+[2015.08.09-10.25.40:985][ 11]BlueprintEditorCompileResults: Info [3579.77] Compile of Cube_Enemy successful! [in 110 ms]
+[2015.08.09-10.25.44:350][142]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.09-10.25.44:366][142]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.09-10.25.44:489][142]LogPlayLevel: PIE:  Blueprint regeneration took 138 ms (1 blueprints)
+[2015.08.09-10.25.44:489][142]PIE: New page: PIE session: SideScrollerExampleMap (9 Aug 2015 12:25:44)
+[2015.08.09-10.25.44:489][142]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.09-10.25.44:520][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030934s)
+[2015.08.09-10.25.44:521][142]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.09-10.25.44:522][142]LogPlayLevel: PIE: World Init took: (0.001616s)
+[2015.08.09-10.25.44:522][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.032794s)
+[2015.08.09-10.25.44:555][142]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.09-10.25.44:561][142]LogInit: FAudioDevice initialized.
+[2015.08.09-10.25.44:599][142]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.09-10.25.44:607][142]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.09-11.25.44
+[2015.08.09-10.25.44:607][142]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-10.25.44:607][142]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-10.25.44:608][142]LogWorld: Bringing up level for play took: 0.006845
+[2015.08.09-10.25.44:610][142]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.595
+[2015.08.09-10.25.45:907][220]LogScriptCore: Script call stack:
+	Function /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy_C:ReceiveActorBeginOverlap
+	Function /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy_C:ExecuteUbergraph_Cube_Enemy
+
+[2015.08.09-10.25.45:907][220]LogScript:Warning: Infinite script recursion (250 calls) detected
+	Cube_Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Cube_Enemy_1134
+	Function /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy_C:ExecuteUbergraph_Cube_Enemy:0000
+[2015.08.09-10.25.45:907][220]PIE:Error: Error Infinite Loop detected in  Cube_Enemy , asserted during  OnComponentBeginOverlap (CubeEnemyCollisionBox) with the following  Call Stack
+[2015.08.09-10.25.47:186][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034E1504900
+[2015.08.09-10.25.47:186][220]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.25.50:230][335]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.09-10.25.50:240][335]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.09-10.25.50:361][335]LogPlayLevel: PIE:  Blueprint regeneration took 131 ms (1 blueprints)
+[2015.08.09-10.25.50:361][335]PIE: New page: PIE session: SideScrollerExampleMap (9 Aug 2015 12:25:50)
+[2015.08.09-10.25.50:362][335]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.09-10.25.50:390][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028095s)
+[2015.08.09-10.25.50:391][335]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.09-10.25.50:391][335]LogPlayLevel: PIE: World Init took: (0.001525s)
+[2015.08.09-10.25.50:392][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.029859s)
+[2015.08.09-10.25.50:425][335]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.09-10.25.50:431][335]LogInit: FAudioDevice initialized.
+[2015.08.09-10.25.50:465][335]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.09-10.25.50:473][335]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.09-11.25.50
+[2015.08.09-10.25.50:473][335]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-10.25.50:473][335]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.09-10.25.50:474][335]LogWorld: Bringing up level for play took: 0.006806
+[2015.08.09-10.25.50:475][335]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.461
+[2015.08.09-10.25.51:533][396]LogScriptCore: Script call stack:
+	Function /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy_C:ReceiveActorBeginOverlap
+	Function /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy_C:ExecuteUbergraph_Cube_Enemy
+
+[2015.08.09-10.25.51:533][396]LogScript:Warning: Infinite script recursion (250 calls) detected
+	Cube_Enemy_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Cube_Enemy_1134
+	Function /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy_C:ExecuteUbergraph_Cube_Enemy:0000
+[2015.08.09-10.25.51:533][396]PIE:Error: Error Infinite Loop detected in  Cube_Enemy , asserted during  OnComponentBeginOverlap (CubeEnemyCollisionBox) with the following  Call Stack
+[2015.08.09-10.25.52:797][396]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034E008A3E0
+[2015.08.09-10.25.52:797][396]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.25.59:671][613]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.26.57:453][806]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.27.22:772][357]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.27.22:896][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.09-10.27.23:210][357]LogSavePackage: Save=268.399994ms
+[2015.08.09-10.27.23:210][357]LogSavePackage: Moving '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Saved/SideScrollerExampleMap_Auto2079617D24716883DE2AFCA95439469A3.tmp' to '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto2.umap'
+[2015.08.09-10.27.23:214][357]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.318
+[2015.08.09-10.27.23:214][357]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.318
+[2015.08.09-10.27.23:224][357]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Blueprints/Cube_Enemy] ([1] browsable assets)...
+[2015.08.09-10.27.23:247][357]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Blueprints/Cube_Enemy.Cube_Enemy]
+[2015.08.09-10.27.23:247][357]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Cube_Enemy]
+[2015.08.09-10.27.23:284][357]LogSavePackage: Save=31.580057ms
+[2015.08.09-10.27.23:284][357]LogSavePackage: Moving '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Saved/Cube_Enemy_Auto209E8540A4F0D2E82E925B7B6BD51B26E.tmp' to '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Saved/Autosaves/Game/StarterContent/Blueprints/Cube_Enemy_Auto2.uasset'
+[2015.08.09-10.27.23:285][357]LogFileHelpers: Auto-saving content packages took 0.067
+[2015.08.09-10.28.16:347][518]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.43.22:054][685]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.43.22:078][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.09-10.43.22:119][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000003482CC7600
+[2015.08.09-10.43.22:369][685]LogSavePackage: Save=250.923462ms
+[2015.08.09-10.43.22:369][685]LogSavePackage: Moving '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Saved/SideScrollerExampleMap6E46EF7C447580A404426AA9C290E312.tmp' to '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2015.08.09-10.43.37:121][738]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034D8FA0680
+[2015.08.09-10.43.37:122][738]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034F2244D60
+[2015.08.09-10.43.37:147][738]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.43.40:007][738]LogD3D11RHI: InitD3DDevice
+[2015.08.09-10.43.40:054][738]LogSavePackage: Save=23.980110ms
+[2015.08.09-10.43.40:054][738]LogSavePackage: Moving '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Saved/Cube_EnemyFEEAAF244F1EC0A16384A78D194AAFFA.tmp' to '../../../../../../Users/Alfie/Documents/Unreal Projects/SS_testing_ground/Content/StarterContent/Blueprints/Cube_Enemy.uasset'
+[2015.08.09-10.43.40:127][738]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.08.09-10.43.40:375][739]Cmd: QUIT_EDITOR
+[2015.08.09-10.43.41:130][739]LogExit: Preparing to exit.
+[2015.08.09-10.43.41:721][739]LogExit: Editor shut down
+[2015.08.09-10.43.41:721][739]LogExit: Transaction tracking system shut down
+[2015.08.09-10.43.41:723][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034B0E8E5C0
+[2015.08.09-10.43.41:724][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034C6EEF9C0
+[2015.08.09-10.43.41:724][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034C6CBB7E0
+[2015.08.09-10.43.41:724][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034C805C2C0
+[2015.08.09-10.43.41:724][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034AFAA31A0
+[2015.08.09-10.43.41:724][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000034AFAA2E80
+[2015.08.09-10.43.41:876][739]LogExit: Object subsystem successfully closed.
+[2015.08.09-10.43.41:892][739]LogD3D11RHI: Shutdown
+[2015.08.09-10.43.41:892][739]LogD3D11RHI: CleanupD3DDevice
+[2015.08.09-10.43.41:894][739]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.08.09-10.43.41:934][739]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (189)
+[2015.08.09-10.43.41:934][739]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.08.09-10.43.41:934][739]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.08.09-10.43.41:934][739]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.08.09-10.43.41:934][739]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.08.09-10.43.41:934][739]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.08.09-10.43.41:935][739]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.08.09-10.43.41:936][739]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.08.09-10.43.41:936][739]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.08.09-10.43.41:936][739]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.08.09-10.43.41:937][739]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.08.09-10.43.41:937][739]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.08.09-10.43.41:937][739]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.08.09-10.43.41:937][739]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.08.09-10.43.42:747][739]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.08.09-10.43.42:748][739]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.08.09-10.43.42:748][739]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.08.09-10.43.42:748][739]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.08.09-10.43.42:748][739]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.08.09-10.43.42:748][739]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.08.09-10.43.42:748][739]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.08.09-10.43.42:781][739]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.08.09-10.43.42:781][739]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.08.09-10.43.42:781][739]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.08.09-10.43.42:781][739]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.08.09-10.43.42:783][739]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.08.09-10.43.42:957][739]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.08.09-10.43.42:957][739]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.08.09-10.43.42:957][739]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.08.09-10.43.42:957][739]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.08.09-10.43.42:957][739]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.08.09-10.43.42:957][739]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.08.09-10.43.42:957][739]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.08.09-10.43.42:967][739]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.08.09-10.43.42:967][739]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.08.09-10.43.42:967][739]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.08.09-10.43.42:967][739]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.08.09-10.43.42:967][739]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.08.09-10.43.42:967][739]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.08.09-10.43.42:967][739]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.08.09-10.43.42:967][739]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.08.09-10.43.42:967][739]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.08.09-10.43.42:967][739]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.08.09-10.43.42:967][739]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.08.09-10.43.42:967][739]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.08.09-10.43.42:967][739]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.08.09-10.43.42:968][739]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.08.09-10.43.42:968][739]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.08.09-10.43.42:968][739]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.08.09-10.43.42:968][739]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.08.09-10.43.42:968][739]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.08.09-10.43.42:968][739]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.08.09-10.43.42:968][739]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.08.09-10.43.42:968][739]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.08.09-10.43.42:968][739]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.08.09-10.43.42:968][739]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.08.09-10.43.42:969][739]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.09-10.43.42:970][739]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.09-10.43.42:970][739]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.08.09-10.43.43:072][739]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.08.09-10.43.43:072][739]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.08.09-10.43.43:074][739]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.08.09-10.43.43:074][739]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.08.09-10.43.43:074][739]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.08.09-10.43.43:074][739]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.08.09-10.43.43:074][739]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.08.09-10.43.43:074][739]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.08.09-10.43.43:074][739]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.08.09-10.43.43:074][739]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.08.09-10.43.43:074][739]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.08.09-10.43.43:074][739]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.08.09-10.43.43:074][739]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.08.09-10.43.43:074][739]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.08.09-10.43.43:075][739]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.08.09-10.43.43:075][739]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.08.09-10.43.43:075][739]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.08.09-10.43.43:077][739]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.08.09-10.43.43:077][739]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.08.09-10.43.43:077][739]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.08.09-10.43.43:077][739]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.08.09-10.43.43:077][739]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.08.09-10.43.43:077][739]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.08.09-10.43.43:077][739]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.08.09-10.43.43:077][739]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.08.09-10.43.43:077][739]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.08.09-10.43.43:077][739]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.08.09-10.43.43:140][739]LogDerivedDataCache: Shutdown
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.09-10.43.43:140][739]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.09-10.43.43:141][739]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.09-10.43.43:141][739]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.09-10.43.43:141][739]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.09-10.43.43:143][739]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.09-10.43.43:143][739]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.09-10.43.43:143][739]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.09-10.43.43:143][739]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.09-10.43.43:143][739]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.09-10.43.43:143][739]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.09-10.43.43:143][739]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.09-10.43.43:143][739]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.09-10.43.43:143][739]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.09-10.43.43:143][739]LogExit: Exiting.
+[2015.08.09-10.43.43:154][739]Log file closed, 08/09/15 11:43:43
