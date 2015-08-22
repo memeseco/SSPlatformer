@@ -1,0 +1,1026 @@
+﻿[2015.08.16-13.21.30:909][  0]Log file open, 08/16/15 14:21:30
+[2015.08.16-13.21.30:909][  0]LogInit:Display: Running engine for game: SS_testing_ground
+[2015.08.16-13.21.30:909][  0]LogInit:Display: RandInit(481519557) SRandInit(481519557).
+[2015.08.16-13.21.30:909][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.16-13.21.30:909][  0]LogStats: Stats thread started
+[2015.08.16-13.21.30:909][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.16-13.21.30:909][  0]LogInit: API Version: 2579680
+[2015.08.16-13.21.30:909][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.16-13.21.30:909][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.16-13.21.30:909][  0]LogInit: Build Configuration: Development
+[2015.08.16-13.21.30:909][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.16-13.21.30:909][  0]LogInit: Command line: 
+[2015.08.16-13.21.30:909][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.16-13.21.30:909][  0]LogInit: Rocket: 1
+[2015.08.16-13.21.30:939][  0]LogInit: Using libcurl 7.41.0
+[2015.08.16-13.21.30:939][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.16-13.21.30:939][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.16-13.21.30:939][  0]LogInit:  - other features:
+[2015.08.16-13.21.30:939][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.16-13.21.30:939][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.16-13.21.30:939][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.16-13.21.30:939][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.16-13.21.30:939][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.16-13.21.30:939][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.16-13.21.30:939][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.16-13.21.30:939][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.16-13.21.30:939][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.16-13.21.30:939][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.16-13.21.30:961][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.16-13.21.31:017][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.16-13.21.31:025][  0]LogInit: Object subsystem initialized
+[2015.08.16-13.21.31:026][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.16-13.21.31:026][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Alfie/Documents/GitHub/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.16-13.21.31:026][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.16-13.21.31:026][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Alfie/Documents/GitHub/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.16-13.21.31:026][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.16-13.21.31:026][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Alfie/Documents/GitHub/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.16-13.21.31:027][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.16-13.21.31:027][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.16-13.21.31:045][  0]LogInit: Computer: DESKTOP-1D88J1H
+[2015.08.16-13.21.31:045][  0]LogInit: User: Alfie
+[2015.08.16-13.21.31:045][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.16-13.21.31:045][  0]LogInit: High frequency timer resolution =3.312788 MHz
+[2015.08.16-13.21.31:045][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.08.16-13.21.31:045][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.16-13.21.31:045][  0]LogMemory: Process Physical Memory: 49.59 MB used, 49.59 MB peak
+[2015.08.16-13.21.31:045][  0]LogMemory: Process Virtual Memory: 22.62 MB used, 22.62 MB peak
+[2015.08.16-13.21.31:045][  0]LogMemory: Physical Memory: 6856.40 MB used, 16337.54 MB total
+[2015.08.16-13.21.31:045][  0]LogMemory: Virtual Memory: 310.62 MB used, 134217728.00 MB total
+[2015.08.16-13.21.31:085][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.16-13.21.31:388][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.16-13.21.31:946][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6800 Series (Feature Level 11_0)
+[2015.08.16-13.21.31:946][  0]LogD3D11RHI: Adapter has 2022MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 2 output[s]
+[2015.08.16-13.21.31:948][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.16-13.21.31:949][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8168MB of shared system memory, 0 output[s]
+[2015.08.16-13.21.31:949][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.16-13.21.31:957][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.21.31:957][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.16-13.21.31:957][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.16-13.21.31:971][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.08.16-13.21.31:990][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.16-13.21.32:975][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.16-13.21.33:007][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.16-13.21.33:029][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.16-13.21.33:053][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.16-13.21.33:084][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.16-13.21.33:106][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.16-13.21.33:131][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.16-13.21.33:152][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.16-13.21.33:173][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.16-13.21.33:193][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.16-13.21.33:219][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.16-13.21.33:242][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.16-13.21.33:318][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.16-13.21.33:336][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.16-13.21.33:354][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.16-13.21.33:374][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.16-13.21.33:374][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.16-13.21.33:750][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.16-13.21.33:805][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/Alfie/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.16-13.21.33:805][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alfie/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.16-13.21.33:805][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alfie/Documents/GitHub/SSPlatformer/UnrealGame/SS_testing_ground/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.16-13.21.33:805][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.16-13.21.33:805][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alfie/Documents/GitHub/SSPlatformer/UnrealGame/SS_testing_ground/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.16-13.21.33:805][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.16-13.21.33:972][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.16-13.21.33:984][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alfie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.16-13.21.34:294][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.16-13.21.34:398][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.16-13.21.34:398][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.16-13.21.34:451][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.16-13.21.34:451][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.16-13.21.34:911][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.16-13.21.36:413][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.16-13.21.36:910][  0]SourceControl: Info Source control is disabled
+[2015.08.16-13.21.36:941][  0]SourceControl: Info Source control is disabled
+[2015.08.16-13.21.36:962][  0]SourceControl: Info Source control is disabled
+[2015.08.16-13.21.36:983][  0]SourceControl: Info Source control is disabled
+[2015.08.16-13.21.37:392][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.16-13.21.37:392][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.16-13.21.37:491][  0]LogEngine: Initializing Engine...
+[2015.08.16-13.21.37:495][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.16-13.21.37:497][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.16-13.21.37:693][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.16-13.21.37:704][  0]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.16-13.21.37:713][  0]LogInit: FAudioDevice initialized.
+[2015.08.16-13.21.37:740][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Alfie/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.16-13.21.37:744][  0]LogInit: Texture streaming: Disabled
+[2015.08.16-13.21.37:783][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.16-13.21.37:783][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.16-13.21.37:783][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0603a0ca498197d200134a8211b93a4b|2a0db50fdac24c27bddd48b4dba66336|acc92c5e-e7ce-48c9-bbe2-ebe6e3c8e47a
+[2015.08.16-13.21.37:783][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.16-13.21.37:845][  0]LogInit: Transaction tracking system initialized
+[2015.08.16-13.21.38:099][  0]BlueprintLog: New page: Editor Load
+[2015.08.16-13.21.38:170][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2015.08.16-13.21.38:171][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.16-13.21.39:326][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.16-13.21.39:327][  0]LogConsoleResponse:Display: 
+[2015.08.16-13.21.39:445][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.16-13.21.39:760][  0]SourceControl: Info Source control is disabled
+[2015.08.16-13.21.39:763][  0]LightingResults: New page: Lighting Build
+[2015.08.16-13.21.39:783][  0]MapCheck: New page: Map Check
+[2015.08.16-13.21.39:783][  0]LightingResults: New page: Lighting Build
+[2015.08.16-13.21.39:793][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F66799A200
+[2015.08.16-13.21.41:904][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.16-13.21.41:934][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.16-13.21.41:997][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.16-13.21.42:119][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.528ms to complete.
+[2015.08.16-13.21.42:119][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 2.359
+[2015.08.16-13.21.42:280][  0]LogCollectionManager: Loaded 0 collections in 0.003165 seconds
+[2015.08.16-13.21.42:288][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 1792 classes and 301 folders.
+[2015.08.16-13.21.42:385][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.08.16-13.21.42:451][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.08.16-13.21.42:497][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.08.16-13.21.42:584][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.16-13.21.42:585][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.21.42:588][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.16-13.21.42:611][  0]LogLoad: Full Startup: 13.84 seconds (BP compile: 0.99 seconds)
+[2015.08.16-13.21.42:688][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.16-13.21.42:744][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.16-13.21.42:859][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.08.16-13.21.43:760][  4]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.21.43:940][  8]LogAssetRegistry: Asset discovery search completed in 5.7815 seconds
+[2015.08.16-13.21.55:168][ 73]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.22.00:001][538]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.16-13.22.00:001][538]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.16-13.22.00:101][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.16-13.22.00:101][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.08.16-13.22.00:276][538]LogPlayLevel: PIE:  Blueprint regeneration took 275 ms (1 blueprints)
+[2015.08.16-13.22.00:282][538]PIE: New page: PIE session: SideScrollerExampleMap (16 Aug 2015 15:22:00)
+[2015.08.16-13.22.00:290][538]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.16-13.22.00:335][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045063s)
+[2015.08.16-13.22.00:336][538]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.16-13.22.00:337][538]LogPlayLevel: PIE: World Init took: (0.001574s)
+[2015.08.16-13.22.00:337][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.047063s)
+[2015.08.16-13.22.00:365][538]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.16-13.22.00:372][538]LogInit: FAudioDevice initialized.
+[2015.08.16-13.22.00:469][538]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.16-13.22.00:485][538]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.16-14.22.00
+[2015.08.16-13.22.00:485][538]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.16-13.22.00:485][538]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.16-13.22.00:486][538]LogWorld: Bringing up level for play took: 0.014862
+[2015.08.16-13.22.00:489][538]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.187
+[2015.08.16-13.22.08:823][150]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F62D378CC0
+[2015.08.16-13.22.19:647][917]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.08.16-13.22.29:305][761]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.16-13.22.29:305][761]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.16-13.22.29:407][761]LogPlayLevel: PIE:  Blueprint regeneration took 101 ms (1 blueprints)
+[2015.08.16-13.22.29:407][761]PIE: New page: PIE session: SideScrollerExampleMap (16 Aug 2015 15:22:29)
+[2015.08.16-13.22.29:408][761]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.16-13.22.29:440][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032198s)
+[2015.08.16-13.22.29:440][761]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.16-13.22.29:441][761]LogPlayLevel: PIE: World Init took: (0.001550s)
+[2015.08.16-13.22.29:441][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.033980s)
+[2015.08.16-13.22.29:505][761]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.16-13.22.29:515][761]LogInit: FAudioDevice initialized.
+[2015.08.16-13.22.29:549][761]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.16-13.22.29:563][761]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.16-14.22.29
+[2015.08.16-13.22.29:563][761]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.16-13.22.29:564][761]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.16-13.22.29:565][761]LogWorld: Bringing up level for play took: 0.013967
+[2015.08.16-13.22.29:567][761]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.734
+[2015.08.16-13.22.45:009][902]LogBlueprintUserMessages: You were hit
+[2015.08.16-13.23.03:718][296]LogBlueprintUserMessages: You were hit
+[2015.08.16-13.23.03:920][313]LogBlueprintUserMessages: You were hit
+[2015.08.16-13.23.21:960][599]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2015.08.16-13.23.21:975][600]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2015.08.16-13.23.21:990][601]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2015.08.16-13.23.22:004][602]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2015.08.16-13.23.47:558][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F651D49580
+[2015.08.16-13.24.45:373][905]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.24.45:480][905]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.24.45:575][905]LogRenderer: Reallocating scene render targets to support 1432x928 (Frame:9576).
+[2015.08.16-13.25.23:328][561]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.23:505][570]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.25:785][794]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.25:851][794]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.34:226][ 66]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.42:756][487]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.42:827][487]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.42:882][487]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.16-13.25.42:939][487]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.16-13.25.47:442][607]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.47:602][614]LogActorFactory: Actor Factory created Cone
+[2015.08.16-13.25.48:055][639]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.48:100][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.16-13.25.48:100][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.08.16-13.25.50:788][759]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.50:849][760]LogActorFactory: Actor Factory created Cone
+[2015.08.16-13.25.51:330][787]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.52:408][836]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.52:520][839]LogActorFactory: Actor Factory created Cone
+[2015.08.16-13.25.52:947][861]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.54:246][922]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.54:334][925]LogActorFactory: Actor Factory created Cone
+[2015.08.16-13.25.54:726][944]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.55:548][978]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.25.55:614][979]LogActorFactory: Actor Factory created Cone
+[2015.08.16-13.25.55:932][998]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.26.15:700][628]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.26.16:541][685]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.26.19:983][808]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.27.38:923][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.08.16-13.27.38:923][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2015.08.16-13.28.54:594][ 87]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.28.55:345][140]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.28.56:762][240]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.29.38:780][522]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.29.40:336][601]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.29.50:199][322]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2015.08.16-13.29.50:199][322]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2015.08.16-13.33.00:683][966]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.33.09:683][822]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.33.09:850][822]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F651D49300
+[2015.08.16-13.33.10:156][822]LogSavePackage: Save=238.492477ms
+[2015.08.16-13.33.10:156][822]LogSavePackage: Moving '../../../../../../Users/Alfie/Documents/GitHub/SSPlatformer/UnrealGame/SS_testing_ground/Saved/SideScrollerExampleMap_Auto1FD91BEBB43BA5EFB7773DA9B8949AB30.tmp' to '../../../../../../Users/Alfie/Documents/GitHub/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2015.08.16-13.33.10:160][822]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.347
+[2015.08.16-13.33.10:160][822]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.347
+[2015.08.16-13.33.10:167][822]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Blueprints/Spikes] ([1] browsable assets)...
+[2015.08.16-13.33.10:195][822]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Blueprints/Spikes.Spikes]
+[2015.08.16-13.33.10:195][822]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Spikes]
+[2015.08.16-13.33.10:217][822]LogSavePackage: Save=20.431129ms
+[2015.08.16-13.33.10:217][822]LogSavePackage: Moving '../../../../../../Users/Alfie/Documents/GitHub/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Spikes_Auto1119C8D20457C28239C5E8CADBC0E7B3F.tmp' to '../../../../../../Users/Alfie/Documents/GitHub/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Autosaves/Game/StarterContent/Blueprints/Spikes_Auto1.uasset'
+[2015.08.16-13.33.10:219][822]LogFileHelpers: Auto-saving content packages took 0.057
+[2015.08.16-13.33.20:107][516]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.34.16:451][996]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.34.26:498][908]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.34.45:719][698]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.34.47:182][837]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.35.07:109][852]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.35.32:825][989]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.35.34:637][169]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.36.21:650][ 63]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.36.29:864][802]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.36.36:041][397]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.36.47:507][561]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.36.48:042][595]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.36.51:503][885]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.36.52:018][921]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.37.07:334][292]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.37.08:150][352]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.37.09:586][480]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.37.27:000][191]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.37.27:718][252]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.38.03:147][385]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.38.37:174][942]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.38.38:565][ 54]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.38.45:218][599]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.38.59:134][669]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.39.10:739][447]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.39.27:355][501]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.39.47:782][ 41]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.39.51:154][314]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.39.54:791][610]BlueprintLog: New page: Compile Spikes
+[2015.08.16-13.39.54:964][610]BlueprintEditorCompileResults: Info [1106.20] Compile of Spikes successful! [in 172 ms]
+[2015.08.16-13.39.59:294][939]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.16-13.39.59:302][939]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.16-13.39.59:429][939]LogPlayLevel: PIE:  Blueprint regeneration took 135 ms (1 blueprints)
+[2015.08.16-13.39.59:429][939]PIE: New page: PIE session: SideScrollerExampleMap (16 Aug 2015 15:39:59)
+[2015.08.16-13.39.59:429][939]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.16-13.39.59:462][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032423s)
+[2015.08.16-13.39.59:463][939]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.16-13.39.59:463][939]LogPlayLevel: PIE: World Init took: (0.001361s)
+[2015.08.16-13.39.59:463][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.034005s)
+[2015.08.16-13.39.59:499][939]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.16-13.39.59:505][939]LogInit: FAudioDevice initialized.
+[2015.08.16-13.39.59:542][939]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.16-13.39.59:555][939]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.16-14.39.59
+[2015.08.16-13.39.59:556][939]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.16-13.39.59:556][939]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.16-13.39.59:557][939]LogWorld: Bringing up level for play took: 0.013409
+[2015.08.16-13.39.59:559][939]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.258
+[2015.08.16-13.40.03:386][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F6A7CBB100
+[2015.08.16-13.40.09:542][548]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.08.16-13.40.16:328][946]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.16-13.40.16:336][946]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.16-13.40.16:462][946]LogPlayLevel: PIE:  Blueprint regeneration took 134 ms (1 blueprints)
+[2015.08.16-13.40.16:462][946]PIE: New page: PIE session: SideScrollerExampleMap (16 Aug 2015 15:40:16)
+[2015.08.16-13.40.16:463][946]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.16-13.40.16:496][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033321s)
+[2015.08.16-13.40.16:497][946]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.16-13.40.16:498][946]LogPlayLevel: PIE: World Init took: (0.001341s)
+[2015.08.16-13.40.16:498][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.034944s)
+[2015.08.16-13.40.16:559][946]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.16-13.40.16:566][946]LogInit: FAudioDevice initialized.
+[2015.08.16-13.40.16:601][946]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.16-13.40.16:615][946]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.16-14.40.16
+[2015.08.16-13.40.16:615][946]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.16-13.40.16:616][946]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.16-13.40.16:617][946]LogWorld: Bringing up level for play took: 0.013002
+[2015.08.16-13.40.16:619][946]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.317
+[2015.08.16-13.40.22:100][276]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F6297F2980
+[2015.08.16-13.40.26:807][629]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.16-13.40.26:815][629]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.16-13.40.26:942][629]LogPlayLevel: PIE:  Blueprint regeneration took 135 ms (1 blueprints)
+[2015.08.16-13.40.26:942][629]PIE: New page: PIE session: SideScrollerExampleMap (16 Aug 2015 15:40:26)
+[2015.08.16-13.40.26:943][629]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.16-13.40.26:978][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034549s)
+[2015.08.16-13.40.26:978][629]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.16-13.40.26:979][629]LogPlayLevel: PIE: World Init took: (0.001700s)
+[2015.08.16-13.40.26:979][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.036492s)
+[2015.08.16-13.40.27:046][629]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.16-13.40.27:054][629]LogInit: FAudioDevice initialized.
+[2015.08.16-13.40.27:067][629]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.40.27:121][629]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.16-13.40.27:135][629]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.16-14.40.27
+[2015.08.16-13.40.27:135][629]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.16-13.40.27:136][629]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.16-13.40.27:137][629]LogWorld: Bringing up level for play took: 0.014281
+[2015.08.16-13.40.27:138][629]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.08.16-13.40.27:191][629]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.889
+[2015.08.16-13.40.33:113][880]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F628C8DDA0
+[2015.08.16-13.40.41:280][562]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.40.46:316][916]LogD3D11RHI: InitD3DDevice
+[2015.08.16-13.40.50:004][200]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.16-13.40.50:035][200]LogPlayLevel: [PIE] Compiling Spikes before PIE...
+[2015.08.16-13.40.50:142][200]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.16-13.40.50:273][200]LogPlayLevel: PIE:  Blueprint regeneration took 268 ms (2 blueprints)
+[2015.08.16-13.40.50:273][200]PIE: New page: PIE session: SideScrollerExampleMap (16 Aug 2015 15:40:50)
+[2015.08.16-13.40.50:274][200]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.16-13.40.50:307][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033324s)
+[2015.08.16-13.40.50:308][200]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.16-13.40.50:309][200]LogPlayLevel: PIE: World Init took: (0.001379s)
+[2015.08.16-13.40.50:309][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.034918s)
+[2015.08.16-13.40.50:368][200]LogInit: XAudio2 using 'Speakers (Logitech G930 Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2015.08.16-13.40.50:375][200]LogInit: FAudioDevice initialized.
+[2015.08.16-13.40.50:410][200]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.16-13.40.50:424][200]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.16-14.40.50
+[2015.08.16-13.40.50:425][200]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.16-13.40.50:425][200]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.16-13.40.50:426][200]LogWorld: Bringing up level for play took: 0.014475
+[2015.08.16-13.40.50:428][200]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.127
+[2015.08.16-13.41.01:175][220]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2576]
+SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Spikes_C_2.StaticMesh7)
+1.#INF00,-1.#INF00,1.#INF00|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ff86b87ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ff86b714411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ff86b7146c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() {0x00007ff8655b189b} + 181 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() {0x00007ff86529b214} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() {0x00007ff8652910bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f727f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateChildTransforms() {0x00007ff86530e284} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f728f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() {0x00007ff8652efc98} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() {0x00007ff8652f2128} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::SetRelativeLocationAndRotation() {0x00007ff8653036a6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::K2_SetRelativeLocation() {0x00007ff8652f10f1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::execK2_SetRelativeLocation() {0x00007ff864659e58} + 328 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda5f2a} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() {0x00007ff86bdcd96d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda692b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() {0x00007ff86bdceb4e} + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!AActor::ProcessEvent() {0x00007ff86471c3c1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::SetPlaybackPosition() {0x00007ff864f3d8ca} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::TickTimeline() {0x00007ff864f44bdd} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UTimelineComponent::TickComponent() {0x00007ff864f4424e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UActorComponent::ConditionalTickComponent() {0x00007ff8651f50bf} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() {0x00007ff8651fe5a2} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::FTickFunctionTask::DoTask() {0x00007ff864ed9535} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!TGraphTask<FTickTaskSequencer::FTickFunctionTask>::ExecuteTask() {0x00007ff864eeb20f} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasks() {0x00007ff86b5b651e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasksUntilQuit() {0x00007ff86b5b674d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() {0x00007ff86b5dbc02} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() {0x00007ff864f2d6a3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() {0x00007ff864f3a1a9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::RunTickGroup() {0x00007ff864b70f24} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::Tick() {0x00007ff864b77bc6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() {0x00007ff86303735c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() {0x00007ff8634f87d6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7bfbc42d1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7bfbb49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7bfbb4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7bfbc65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7bfbc75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff89dc82d92} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+
+[2015.08.16-13.41.01:819][220]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2576]
+SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Spikes_C_2.StaticMesh6)
+1.#INF00,-1.#INF00,1.#INF00|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ff86b87ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ff86b714411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ff86b7146c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() {0x00007ff8655b189b} + 181 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() {0x00007ff86529b214} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() {0x00007ff8652910bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f727f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateChildTransforms() {0x00007ff86530e284} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f728f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() {0x00007ff8652efc98} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() {0x00007ff8652f2128} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::SetRelativeLocationAndRotation() {0x00007ff8653036a6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::K2_SetRelativeLocation() {0x00007ff8652f10f1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::execK2_SetRelativeLocation() {0x00007ff864659e58} + 328 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda5f2a} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() {0x00007ff86bdcd96d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda692b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() {0x00007ff86bdceb4e} + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!AActor::ProcessEvent() {0x00007ff86471c3c1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::SetPlaybackPosition() {0x00007ff864f3d8ca} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::TickTimeline() {0x00007ff864f44bdd} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UTimelineComponent::TickComponent() {0x00007ff864f4424e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UActorComponent::ConditionalTickComponent() {0x00007ff8651f50bf} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() {0x00007ff8651fe5a2} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::FTickFunctionTask::DoTask() {0x00007ff864ed9535} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!TGraphTask<FTickTaskSequencer::FTickFunctionTask>::ExecuteTask() {0x00007ff864eeb20f} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasks() {0x00007ff86b5b651e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasksUntilQuit() {0x00007ff86b5b674d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() {0x00007ff86b5dbc02} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() {0x00007ff864f2d6a3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() {0x00007ff864f3a1a9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::RunTickGroup() {0x00007ff864b70f24} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::Tick() {0x00007ff864b77bc6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() {0x00007ff86303735c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() {0x00007ff8634f87d6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7bfbc42d1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7bfbb49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7bfbb4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7bfbc65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7bfbc75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff89dc82d92} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+
+[2015.08.16-13.41.02:117][220]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2576]
+SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Spikes_C_2.StaticMesh5)
+1.#INF00,-1.#INF00,1.#INF00|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ff86b87ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ff86b714411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ff86b7146c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() {0x00007ff8655b189b} + 181 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() {0x00007ff86529b214} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() {0x00007ff8652910bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f727f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateChildTransforms() {0x00007ff86530e284} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f728f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() {0x00007ff8652efc98} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() {0x00007ff8652f2128} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::SetRelativeLocationAndRotation() {0x00007ff8653036a6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::K2_SetRelativeLocation() {0x00007ff8652f10f1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::execK2_SetRelativeLocation() {0x00007ff864659e58} + 328 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda5f2a} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() {0x00007ff86bdcd96d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda692b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() {0x00007ff86bdceb4e} + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!AActor::ProcessEvent() {0x00007ff86471c3c1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::SetPlaybackPosition() {0x00007ff864f3d8ca} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::TickTimeline() {0x00007ff864f44bdd} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UTimelineComponent::TickComponent() {0x00007ff864f4424e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UActorComponent::ConditionalTickComponent() {0x00007ff8651f50bf} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() {0x00007ff8651fe5a2} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::FTickFunctionTask::DoTask() {0x00007ff864ed9535} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!TGraphTask<FTickTaskSequencer::FTickFunctionTask>::ExecuteTask() {0x00007ff864eeb20f} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasks() {0x00007ff86b5b651e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasksUntilQuit() {0x00007ff86b5b674d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() {0x00007ff86b5dbc02} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() {0x00007ff864f2d6a3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() {0x00007ff864f3a1a9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::RunTickGroup() {0x00007ff864b70f24} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::Tick() {0x00007ff864b77bc6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() {0x00007ff86303735c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() {0x00007ff8634f87d6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7bfbc42d1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7bfbb49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7bfbb4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7bfbc65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7bfbc75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff89dc82d92} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+
+[2015.08.16-13.41.02:439][220]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2576]
+SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Spikes_C_2.StaticMesh4)
+1.#INF00,-1.#INF00,1.#INF00|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ff86b87ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ff86b714411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ff86b7146c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() {0x00007ff8655b189b} + 181 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() {0x00007ff86529b214} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() {0x00007ff8652910bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f727f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateChildTransforms() {0x00007ff86530e284} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f728f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() {0x00007ff8652efc98} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() {0x00007ff8652f2128} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::SetRelativeLocationAndRotation() {0x00007ff8653036a6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::K2_SetRelativeLocation() {0x00007ff8652f10f1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::execK2_SetRelativeLocation() {0x00007ff864659e58} + 328 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda5f2a} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() {0x00007ff86bdcd96d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda692b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() {0x00007ff86bdceb4e} + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!AActor::ProcessEvent() {0x00007ff86471c3c1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::SetPlaybackPosition() {0x00007ff864f3d8ca} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::TickTimeline() {0x00007ff864f44bdd} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UTimelineComponent::TickComponent() {0x00007ff864f4424e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UActorComponent::ConditionalTickComponent() {0x00007ff8651f50bf} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() {0x00007ff8651fe5a2} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::FTickFunctionTask::DoTask() {0x00007ff864ed9535} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!TGraphTask<FTickTaskSequencer::FTickFunctionTask>::ExecuteTask() {0x00007ff864eeb20f} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasks() {0x00007ff86b5b651e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasksUntilQuit() {0x00007ff86b5b674d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() {0x00007ff86b5dbc02} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() {0x00007ff864f2d6a3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() {0x00007ff864f3a1a9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::RunTickGroup() {0x00007ff864b70f24} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::Tick() {0x00007ff864b77bc6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() {0x00007ff86303735c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() {0x00007ff8634f87d6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7bfbc42d1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7bfbb49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7bfbb4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7bfbc65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7bfbc75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff89dc82d92} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+
+[2015.08.16-13.41.02:768][220]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2576]
+SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Spikes_C_2.StaticMesh3)
+1.#INF00,-1.#INF00,1.#INF00|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ff86b87ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ff86b714411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ff86b7146c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() {0x00007ff8655b189b} + 181 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() {0x00007ff86529b214} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() {0x00007ff8652910bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f727f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateChildTransforms() {0x00007ff86530e284} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f728f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() {0x00007ff8652efc98} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() {0x00007ff8652f2128} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::SetRelativeLocationAndRotation() {0x00007ff8653036a6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::K2_SetRelativeLocation() {0x00007ff8652f10f1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::execK2_SetRelativeLocation() {0x00007ff864659e58} + 328 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda5f2a} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() {0x00007ff86bdcd96d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda692b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() {0x00007ff86bdceb4e} + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!AActor::ProcessEvent() {0x00007ff86471c3c1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::SetPlaybackPosition() {0x00007ff864f3d8ca} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::TickTimeline() {0x00007ff864f44bdd} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UTimelineComponent::TickComponent() {0x00007ff864f4424e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UActorComponent::ConditionalTickComponent() {0x00007ff8651f50bf} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() {0x00007ff8651fe5a2} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::FTickFunctionTask::DoTask() {0x00007ff864ed9535} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!TGraphTask<FTickTaskSequencer::FTickFunctionTask>::ExecuteTask() {0x00007ff864eeb20f} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasks() {0x00007ff86b5b651e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasksUntilQuit() {0x00007ff86b5b674d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() {0x00007ff86b5dbc02} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() {0x00007ff864f2d6a3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() {0x00007ff864f3a1a9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::RunTickGroup() {0x00007ff864b70f24} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::Tick() {0x00007ff864b77bc6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() {0x00007ff86303735c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() {0x00007ff8634f87d6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7bfbc42d1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7bfbb49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7bfbb4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7bfbc65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7bfbc75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff89dc82d92} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+
+[2015.08.16-13.41.02:791][220]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2576]
+SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Spikes_C_2.StaticMesh2)
+1.#INF00,-1.#INF00,1.#INF00|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ff86b87ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ff86b714411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ff86b7146c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() {0x00007ff8655b189b} + 181 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() {0x00007ff86529b214} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() {0x00007ff8652910bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f727f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateChildTransforms() {0x00007ff86530e284} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f728f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() {0x00007ff8652efc98} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() {0x00007ff8652f2128} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::SetRelativeLocationAndRotation() {0x00007ff8653036a6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::K2_SetRelativeLocation() {0x00007ff8652f10f1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::execK2_SetRelativeLocation() {0x00007ff864659e58} + 328 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda5f2a} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() {0x00007ff86bdcd96d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda692b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() {0x00007ff86bdceb4e} + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!AActor::ProcessEvent() {0x00007ff86471c3c1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::SetPlaybackPosition() {0x00007ff864f3d8ca} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::TickTimeline() {0x00007ff864f44bdd} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UTimelineComponent::TickComponent() {0x00007ff864f4424e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UActorComponent::ConditionalTickComponent() {0x00007ff8651f50bf} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() {0x00007ff8651fe5a2} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::FTickFunctionTask::DoTask() {0x00007ff864ed9535} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!TGraphTask<FTickTaskSequencer::FTickFunctionTask>::ExecuteTask() {0x00007ff864eeb20f} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasks() {0x00007ff86b5b651e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasksUntilQuit() {0x00007ff86b5b674d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() {0x00007ff86b5dbc02} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() {0x00007ff864f2d6a3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() {0x00007ff864f3a1a9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::RunTickGroup() {0x00007ff864b70f24} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::Tick() {0x00007ff864b77bc6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() {0x00007ff86303735c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() {0x00007ff8634f87d6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7bfbc42d1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7bfbb49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7bfbb4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7bfbc65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7bfbc75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff89dc82d92} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+
+[2015.08.16-13.41.02:813][220]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2576]
+SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Spikes_C_2.StaticMesh1)
+1.#INF00,-1.#INF00,1.#INF00|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ff86b87ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ff86b714411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ff86b7146c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() {0x00007ff8655b189b} + 181 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() {0x00007ff86529b214} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() {0x00007ff8652910bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f727f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateChildTransforms() {0x00007ff86530e284} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f728f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() {0x00007ff8652efc98} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() {0x00007ff8652f2128} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::SetRelativeLocationAndRotation() {0x00007ff8653036a6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::K2_SetRelativeLocation() {0x00007ff8652f10f1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::execK2_SetRelativeLocation() {0x00007ff864659e58} + 328 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda5f2a} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() {0x00007ff86bdcd96d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda692b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() {0x00007ff86bdceb4e} + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!AActor::ProcessEvent() {0x00007ff86471c3c1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::SetPlaybackPosition() {0x00007ff864f3d8ca} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::TickTimeline() {0x00007ff864f44bdd} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UTimelineComponent::TickComponent() {0x00007ff864f4424e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UActorComponent::ConditionalTickComponent() {0x00007ff8651f50bf} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() {0x00007ff8651fe5a2} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::FTickFunctionTask::DoTask() {0x00007ff864ed9535} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!TGraphTask<FTickTaskSequencer::FTickFunctionTask>::ExecuteTask() {0x00007ff864eeb20f} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasks() {0x00007ff86b5b651e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasksUntilQuit() {0x00007ff86b5b674d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() {0x00007ff86b5dbc02} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() {0x00007ff864f2d6a3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() {0x00007ff864f3a1a9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::RunTickGroup() {0x00007ff864b70f24} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::Tick() {0x00007ff864b77bc6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() {0x00007ff86303735c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() {0x00007ff8634f87d6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7bfbc42d1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7bfbb49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7bfbb4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7bfbc65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7bfbc75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff89dc82d92} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+
+[2015.08.16-13.41.02:834][220]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2576]
+SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Spikes_C_2.StaticMesh)
+1.#INF00,-1.#INF00,1.#INF00|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ff86b87ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ff86b714411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ff86b7146c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() {0x00007ff8655b189b} + 181 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() {0x00007ff86529b214} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() {0x00007ff8652910bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f727f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateChildTransforms() {0x00007ff86530e284} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f728f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() {0x00007ff8652efc98} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() {0x00007ff8652f2128} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::SetRelativeLocationAndRotation() {0x00007ff8653036a6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::K2_SetRelativeLocation() {0x00007ff8652f10f1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::execK2_SetRelativeLocation() {0x00007ff864659e58} + 328 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda5f2a} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() {0x00007ff86bdcd96d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda692b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() {0x00007ff86bdceb4e} + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!AActor::ProcessEvent() {0x00007ff86471c3c1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::SetPlaybackPosition() {0x00007ff864f3d8ca} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::TickTimeline() {0x00007ff864f44bdd} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UTimelineComponent::TickComponent() {0x00007ff864f4424e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UActorComponent::ConditionalTickComponent() {0x00007ff8651f50bf} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() {0x00007ff8651fe5a2} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::FTickFunctionTask::DoTask() {0x00007ff864ed9535} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!TGraphTask<FTickTaskSequencer::FTickFunctionTask>::ExecuteTask() {0x00007ff864eeb20f} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasks() {0x00007ff86b5b651e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasksUntilQuit() {0x00007ff86b5b674d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() {0x00007ff86b5dbc02} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() {0x00007ff864f2d6a3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() {0x00007ff864f3a1a9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::RunTickGroup() {0x00007ff864b70f24} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::Tick() {0x00007ff864b77bc6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() {0x00007ff86303735c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() {0x00007ff8634f87d6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7bfbc42d1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7bfbb49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7bfbb4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7bfbc65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7bfbc75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff89dc82d92} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+
+[2015.08.16-13.41.02:855][220]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2576]
+SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Spikes_C_2.Cone4)
+1.#INF00,-1.#INF00,1.#INF00|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ff86b87ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ff86b714411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ff86b7146c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() {0x00007ff8655b189b} + 181 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() {0x00007ff86529b214} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() {0x00007ff8652910bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f727f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateChildTransforms() {0x00007ff86530e284} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f728f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() {0x00007ff8652efc98} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() {0x00007ff8652f2128} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::SetRelativeLocationAndRotation() {0x00007ff8653036a6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::K2_SetRelativeLocation() {0x00007ff8652f10f1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::execK2_SetRelativeLocation() {0x00007ff864659e58} + 328 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda5f2a} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() {0x00007ff86bdcd96d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda692b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() {0x00007ff86bdceb4e} + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!AActor::ProcessEvent() {0x00007ff86471c3c1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::SetPlaybackPosition() {0x00007ff864f3d8ca} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::TickTimeline() {0x00007ff864f44bdd} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UTimelineComponent::TickComponent() {0x00007ff864f4424e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UActorComponent::ConditionalTickComponent() {0x00007ff8651f50bf} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() {0x00007ff8651fe5a2} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::FTickFunctionTask::DoTask() {0x00007ff864ed9535} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!TGraphTask<FTickTaskSequencer::FTickFunctionTask>::ExecuteTask() {0x00007ff864eeb20f} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasks() {0x00007ff86b5b651e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasksUntilQuit() {0x00007ff86b5b674d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() {0x00007ff86b5dbc02} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() {0x00007ff864f2d6a3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() {0x00007ff864f3a1a9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::RunTickGroup() {0x00007ff864b70f24} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::Tick() {0x00007ff864b77bc6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() {0x00007ff86303735c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() {0x00007ff8634f87d6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7bfbc42d1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7bfbb49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7bfbb4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7bfbc65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7bfbc75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff89dc82d92} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+
+[2015.08.16-13.41.02:877][220]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2576]
+SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Spikes_C_2.Cone3)
+1.#INF00,-1.#INF00,1.#INF00|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ff86b87ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ff86b714411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ff86b7146c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() {0x00007ff8655b189b} + 181 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() {0x00007ff86529b214} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() {0x00007ff8652910bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f727f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateChildTransforms() {0x00007ff86530e284} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f728f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() {0x00007ff8652efc98} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() {0x00007ff8652f2128} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::SetRelativeLocationAndRotation() {0x00007ff8653036a6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::K2_SetRelativeLocation() {0x00007ff8652f10f1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::execK2_SetRelativeLocation() {0x00007ff864659e58} + 328 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda5f2a} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() {0x00007ff86bdcd96d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda692b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() {0x00007ff86bdceb4e} + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!AActor::ProcessEvent() {0x00007ff86471c3c1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::SetPlaybackPosition() {0x00007ff864f3d8ca} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::TickTimeline() {0x00007ff864f44bdd} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UTimelineComponent::TickComponent() {0x00007ff864f4424e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UActorComponent::ConditionalTickComponent() {0x00007ff8651f50bf} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() {0x00007ff8651fe5a2} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::FTickFunctionTask::DoTask() {0x00007ff864ed9535} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!TGraphTask<FTickTaskSequencer::FTickFunctionTask>::ExecuteTask() {0x00007ff864eeb20f} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasks() {0x00007ff86b5b651e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasksUntilQuit() {0x00007ff86b5b674d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() {0x00007ff86b5dbc02} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() {0x00007ff864f2d6a3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() {0x00007ff864f3a1a9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::RunTickGroup() {0x00007ff864b70f24} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::Tick() {0x00007ff864b77bc6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() {0x00007ff86303735c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() {0x00007ff8634f87d6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7bfbc42d1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7bfbb49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7bfbb4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7bfbc65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7bfbc75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff89dc82d92} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+
+[2015.08.16-13.41.02:900][220]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2576]
+SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Spikes_C_2.Cone2)
+1.#INF00,-1.#INF00,1.#INF00|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ff86b87ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ff86b714411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ff86b7146c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() {0x00007ff8655b189b} + 181 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() {0x00007ff86529b214} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() {0x00007ff8652910bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f727f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateChildTransforms() {0x00007ff86530e284} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f728f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() {0x00007ff8652efc98} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() {0x00007ff8652f2128} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::SetRelativeLocationAndRotation() {0x00007ff8653036a6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::K2_SetRelativeLocation() {0x00007ff8652f10f1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::execK2_SetRelativeLocation() {0x00007ff864659e58} + 328 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda5f2a} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() {0x00007ff86bdcd96d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda692b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() {0x00007ff86bdceb4e} + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!AActor::ProcessEvent() {0x00007ff86471c3c1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::SetPlaybackPosition() {0x00007ff864f3d8ca} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::TickTimeline() {0x00007ff864f44bdd} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UTimelineComponent::TickComponent() {0x00007ff864f4424e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UActorComponent::ConditionalTickComponent() {0x00007ff8651f50bf} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() {0x00007ff8651fe5a2} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::FTickFunctionTask::DoTask() {0x00007ff864ed9535} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!TGraphTask<FTickTaskSequencer::FTickFunctionTask>::ExecuteTask() {0x00007ff864eeb20f} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasks() {0x00007ff86b5b651e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasksUntilQuit() {0x00007ff86b5b674d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() {0x00007ff86b5dbc02} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() {0x00007ff864f2d6a3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() {0x00007ff864f3a1a9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::RunTickGroup() {0x00007ff864b70f24} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::Tick() {0x00007ff864b77bc6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() {0x00007ff86303735c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() {0x00007ff8634f87d6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7bfbc42d1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7bfbb49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7bfbb4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7bfbc65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7bfbc75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff89dc82d92} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+
+[2015.08.16-13.41.02:923][220]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2576]
+SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Spikes_C_2.Cone1)
+1.#INF00,-1.#INF00,1.#INF00|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() {0x00007ff86b87ac36} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureFailed() {0x00007ff86b714411} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::EnsureNotFalse_OptionallyLogFormattedEnsureMessageReturningFalse() {0x00007ff86b7146c3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FBodyInstance::SetBodyTransform() {0x00007ff8655b189b} + 181 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::SendPhysicsTransform() {0x00007ff86529b214} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UPrimitiveComponent::OnUpdateTransform() {0x00007ff8652910bd} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f727f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateChildTransforms() {0x00007ff86530e284} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PropagateTransformUpdate() {0x00007ff8652f728f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::UpdateComponentToWorldWithParent() {0x00007ff86530e727} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::InternalSetWorldLocationAndRotation() {0x00007ff8652efc98} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::MoveComponentImpl() {0x00007ff8652f2128} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::SetRelativeLocationAndRotation() {0x00007ff8653036a6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::K2_SetRelativeLocation() {0x00007ff8652f10f1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::execK2_SetRelativeLocation() {0x00007ff864659e58} + 328 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda5f2a} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() {0x00007ff86bdcd96d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::CallFunction() {0x00007ff86bda692b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() {0x00007ff86bdcf60c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UFunction::Invoke() {0x00007ff86bca4b14} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() {0x00007ff86bdceb4e} + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!AActor::ProcessEvent() {0x00007ff86471c3c1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::SetPlaybackPosition() {0x00007ff864f3d8ca} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTimeline::TickTimeline() {0x00007ff864f44bdd} + 18 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UTimelineComponent::TickComponent() {0x00007ff864f4424e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UActorComponent::ConditionalTickComponent() {0x00007ff8651f50bf} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FActorComponentTickFunction::ExecuteTick() {0x00007ff8651fe5a2} + 19 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::FTickFunctionTask::DoTask() {0x00007ff864ed9535} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!TGraphTask<FTickTaskSequencer::FTickFunctionTask>::ExecuteTask() {0x00007ff864eeb20f} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasks() {0x00007ff86b5b651e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskThread::ProcessTasksUntilQuit() {0x00007ff86b5b674d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FTaskGraphImplementation::WaitUntilTasksComplete() {0x00007ff86b5dbc02} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskSequencer::ReleaseTickGroup() {0x00007ff864f2d6a3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!FTickTaskManager::RunTickGroup() {0x00007ff864f3a1a9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::RunTickGroup() {0x00007ff864b70f24} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UWorld::Tick() {0x00007ff864b77bc6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() {0x00007ff86303735c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() {0x00007ff8634f87d6} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff7bfbc42d1} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff7bfbb49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff7bfbb4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff7bfbc65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff7bfbc75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff89dc82d92} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+ntdll.dll {0x00007ff89e929f64} + 0 bytes
+
