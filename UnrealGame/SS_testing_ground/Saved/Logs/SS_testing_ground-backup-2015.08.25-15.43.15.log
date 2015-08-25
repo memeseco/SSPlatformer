@@ -1,0 +1,815 @@
+﻿[2015.08.25-13.14.41:129][  0]Log file open, 08/25/15 14:14:41
+[2015.08.25-13.14.41:129][  0]LogInit:Display: Running engine for game: SS_testing_ground
+[2015.08.25-13.14.41:129][  0]LogInit:Display: RandInit(-815988340) SRandInit(-815988338).
+[2015.08.25-13.14.41:129][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.25-13.14.41:129][  0]LogStats: Stats thread started
+[2015.08.25-13.14.41:129][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.25-13.14.41:129][  0]LogInit: API Version: 2579680
+[2015.08.25-13.14.41:129][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.25-13.14.41:129][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.25-13.14.41:129][  0]LogInit: Build Configuration: Development
+[2015.08.25-13.14.41:129][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.25-13.14.41:129][  0]LogInit: Command line:  
+[2015.08.25-13.14.41:129][  0]LogInit: Base directory: D:/GameMaking/UE4/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.25-13.14.41:129][  0]LogInit: Rocket: 1
+[2015.08.25-13.14.41:178][  0]LogInit: Using libcurl 7.41.0
+[2015.08.25-13.14.41:178][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.25-13.14.41:178][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.25-13.14.41:178][  0]LogInit:  - other features:
+[2015.08.25-13.14.41:178][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.25-13.14.41:178][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.25-13.14.41:178][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.25-13.14.41:178][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.25-13.14.41:178][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.25-13.14.41:181][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.25-13.14.41:181][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.25-13.14.41:181][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.25-13.14.41:181][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.25-13.14.41:181][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.25-13.14.41:219][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.25-13.14.41:314][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.25-13.14.41:453][  0]LogInit: Object subsystem initialized
+[2015.08.25-13.14.41:532][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.25-13.14.41:532][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.25-13.14.41:532][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.25-13.14.41:532][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.25-13.14.41:532][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.25-13.14.41:532][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.25-13.14.41:580][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.25-13.14.41:580][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.25-13.14.41:627][  0]LogInit: Computer: MEMESECOMAIN
+[2015.08.25-13.14.41:627][  0]LogInit: User: Memeseco
+[2015.08.25-13.14.41:627][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.25-13.14.41:627][  0]LogInit: High frequency timer resolution =3.320361 MHz
+[2015.08.25-13.14.41:628][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.08.25-13.14.41:628][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.25-13.14.41:628][  0]LogMemory: Process Physical Memory: 50.88 MB used, 50.88 MB peak
+[2015.08.25-13.14.41:628][  0]LogMemory: Process Virtual Memory: 24.38 MB used, 24.38 MB peak
+[2015.08.25-13.14.41:628][  0]LogMemory: Physical Memory: 5446.45 MB used, 8075.07 MB total
+[2015.08.25-13.14.41:628][  0]LogMemory: Virtual Memory: 283.75 MB used, 8388608.00 MB total
+[2015.08.25-13.14.42:336][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2015.08.25-13.14.42:741][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (D:/GameMaking/UE4/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (D:/GameMaking/UE4/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.25-13.14.43:830][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2015.08.25-13.14.43:830][  0]LogD3D11RHI: Adapter has 1955MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.08.25-13.14.43:872][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.08.25-13.14.43:872][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2015.08.25-13.14.43:872][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.25-13.14.43:879][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.14.43:879][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.25-13.14.43:879][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.25-13.14.43:894][  0]LogD3D11RHI: Async texture creation enabled
+[2015.08.25-13.14.44:120][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.25-13.14.46:690][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.25-13.14.46:716][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.25-13.14.46:738][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.25-13.14.46:770][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.25-13.14.46:798][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.25-13.14.46:824][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.25-13.14.46:858][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.25-13.14.46:874][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.25-13.14.46:901][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.25-13.14.46:920][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.25-13.14.46:942][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.25-13.14.46:971][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.25-13.14.47:088][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.25-13.14.47:107][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.25-13.14.47:122][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.25-13.14.47:140][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.25-13.14.47:140][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.25-13.14.47:701][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.25-13.14.47:993][  0]LogDerivedDataCache: Loaded boot cache 0.29s 53MB C:/Users/Memeseco/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.25-13.14.47:993][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Memeseco/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.25-13.14.47:993][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.25-13.14.47:993][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.25-13.14.47:993][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.25-13.14.47:993][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.25-13.14.48:255][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.25-13.14.48:269][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Memeseco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.25-13.14.52:250][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.25-13.14.52:368][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.25-13.14.52:369][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.25-13.14.52:563][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.25-13.14.52:563][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.25-13.14.55:021][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.25-13.14.59:729][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.25-13.15.01:179][  0]SourceControl: Info Source control is disabled
+[2015.08.25-13.15.01:212][  0]SourceControl: Info Source control is disabled
+[2015.08.25-13.15.01:269][  0]SourceControl: Info Source control is disabled
+[2015.08.25-13.15.01:308][  0]SourceControl: Info Source control is disabled
+[2015.08.25-13.15.02:018][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.25-13.15.02:018][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.08.25-13.15.02:456][  0]LogEngine: Initializing Engine...
+[2015.08.25-13.15.02:461][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.25-13.15.02:483][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.25-13.15.03:315][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.25-13.15.03:397][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.25-13.15.03:415][  0]LogInit: FAudioDevice initialized.
+[2015.08.25-13.15.03:491][  0]LogDerivedDataCache: Saved boot cache 0.08s 53MB C:/Users/Memeseco/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.25-13.15.03:502][  0]LogInit: Texture streaming: Disabled
+[2015.08.25-13.15.03:561][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.25-13.15.03:562][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.25-13.15.03:562][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 738629634bef9d533c51ae8109d89eed|785afb56c3774c9190824ec08aabf052|0828c46a-eb19-4d53-a9cc-8575c71f2c6c
+[2015.08.25-13.15.03:569][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.25-13.15.03:778][  0]LogInit: Transaction tracking system initialized
+[2015.08.25-13.15.04:248][  0]BlueprintLog: New page: Editor Load
+[2015.08.25-13.15.04:357][  0]LogAssetRegistry: FAssetRegistry took 0.0208 seconds to start up
+[2015.08.25-13.15.04:365][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.25-13.15.07:344][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.25-13.15.07:345][  0]LogConsoleResponse:Display: 
+[2015.08.25-13.15.08:290][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.25-13.15.09:293][  0]SourceControl: Info Source control is disabled
+[2015.08.25-13.15.09:353][  0]LightingResults: New page: Lighting Build
+[2015.08.25-13.15.09:517][  0]MapCheck: New page: Map Check
+[2015.08.25-13.15.09:517][  0]LightingResults: New page: Lighting Build
+[2015.08.25-13.15.09:646][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001858EF20
+[2015.08.25-13.15.14:920][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.25-13.15.15:556][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.25-13.15.15:818][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.25-13.15.15:885][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.285ms to complete.
+[2015.08.25-13.15.15:885][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 6.549
+[2015.08.25-13.15.16:688][  0]LogCollectionManager: Loaded 0 collections in 0.001835 seconds
+[2015.08.25-13.15.16:710][  0]LogContentBrowser: Native class hierarchy populated in 0.0207 seconds. Added 1792 classes and 301 folders.
+[2015.08.25-13.15.16:909][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.25-13.15.17:197][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.08.25-13.15.17:262][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.08.25-13.15.17:574][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.25-13.15.17:619][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.15.17:660][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.25-13.15.17:710][  0]LogLoad: Full Startup: 42.58 seconds (BP compile: 1.77 seconds)
+[2015.08.25-13.15.18:404][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.25-13.15.18:532][  0]LogContentStreaming: Texture pool size now 700 MB
+[2015.08.25-13.15.18:995][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.08.25-13.15.19:178][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.08.25-13.15.19:227][  1]Cmd: UpdateLandscapeEditorData
+[2015.08.25-13.15.19:497][  2]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.15.23:259][ 13]LogAssetRegistry: Asset discovery search completed in 18.9125 seconds
+[2015.08.25-13.15.25:888][ 75]LogEditorViewport: Clicking on Actor (LMB): BP_LakeWater_C (BP_LakeWater)
+[2015.08.25-13.15.26:888][ 92]Cmd: DELETE
+[2015.08.25-13.15.26:888][ 92]Cmd: ACTOR DELETE
+[2015.08.25-13.15.26:891][ 92]LogEditorActor: Deleted Actor: BP_LakeWater_C
+[2015.08.25-13.15.26:907][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.25-13.15.27:191][ 92]LogEditorActor: Deleted 1 Actors (0.301 secs)
+[2015.08.25-13.15.32:019][238]LogEditorViewport: Clicking on Actor (LMB): Axe_C (Axe)
+[2015.08.25-13.15.32:879][271]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.15.33:981][317]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.15.34:098][317]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.15.34:183][317]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.25-13.15.34:328][317]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.25-13.16.05:636][161]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.08:735][255]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.09:509][281]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.14:868][445]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.18:137][539]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.18:513][552]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.21:809][592]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.21:906][592]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:/Users/Memeseco/Desktop/Axe_Diffuse_001.png)
+[2015.08.25-13.16.21:978][592]LogTexture:Display: Building textures: Axe_Diffuse_001 (AutoDXT)
+[2015.08.25-13.16.24:794][650]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.25:104][660]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.34:745][930]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.34:800][930]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.16.34:958][930]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.16.34:966][930]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.16.36:832][969]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.37:327][979]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.16.37:336][979]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.16.37:337][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.08.25-13.16.37:367][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.08.25-13.16.37:706][983]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.25-13.16.37:706][983]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.08.25-13.16.37:706][983]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.08.25-13.16.39:123][ 16]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.40:129][ 49]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.16.40:136][ 49]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.16.40:177][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.08.25-13.16.40:820][ 63]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.41:372][ 69]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.08.25-13.16.41:372][ 69]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.25-13.16.41:372][ 69]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.25-13.16.44:691][187]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.16.44:700][187]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.16.45:899][215]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.08.25-13.16.45:900][215]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.25-13.16.45:900][215]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.25-13.16.46:932][249]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.16.47:839][283]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.16.47:847][283]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.16.49:070][311]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.08.25-13.16.49:071][311]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.25-13.16.49:071][311]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.25-13.16.58:019][567]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.17.03:079][721]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.17.03:087][721]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.17.04:101][748]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.17.04:111][748]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.17.04:270][751]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.25-13.17.04:270][751]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.25-13.17.04:270][751]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.25-13.17.07:820][849]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.17.07:825][849]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.17.08:968][882]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.25-13.17.08:968][882]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.25-13.17.08:968][882]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.25-13.17.09:905][910]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.17.10:976][951]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.17.10:986][951]LogMaterial: 0.000351 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.17.12:172][982]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.25-13.17.12:172][982]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.25-13.17.12:172][982]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.25-13.17.13:199][ 10]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.17.13:206][ 10]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.17.14:406][ 39]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.25-13.17.14:406][ 39]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.25-13.17.14:406][ 39]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.25-13.17.16:472][110]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.17.17:265][136]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.17.17:271][136]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.17.18:426][164]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.25-13.17.18:426][164]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.25-13.17.18:426][164]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.25-13.17.18:572][169]LogMaterialEditor: Applying material Axe_Matt_001
+[2015.08.25-13.17.19:067][169]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.17.19:094][169]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.17.19:100][169]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.17.19:167][169]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.17.19:201][169]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.17.19:230][169]LogMaterial: 0.009481 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.17.19:982][184]LogMaterialEditor: Saving and Compiling material Axe_Matt_001
+[2015.08.25-13.17.20:010][184]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.17.22:305][184]LogSavePackage: Save=55.208454ms
+[2015.08.25-13.17.22:305][184]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Axe_Matt_00185F2439045639F25A9E20EABD2A57D9A.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Content/Blueprints/Textures/Axe_Matt_001.uasset'
+[2015.08.25-13.17.22:329][184]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.08.25-13.17.22:329][184]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.25-13.17.22:329][184]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.08.25-13.17.30:386][371]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.17.48:135][586]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.17.48:672][600]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.17.53:015][616]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.17.53:126][616]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/Memeseco/Desktop/Axe_unwrapped_004.FBX)
+[2015.08.25-13.17.53:212][616]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.08.25-13.17.53:212][616]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.08.25-13.17.53:212][616]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.08.25-13.17.53:212][616]LogFbx: ItemName: Model, ItemCount : 6
+[2015.08.25-13.17.53:212][616]LogFbx: ItemName: Geometry, ItemCount : 6
+[2015.08.25-13.17.53:249][616]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.17.55:991][616]LogFbx: Loading FBX Scene from C:/Users/Memeseco/Desktop/Axe_unwrapped_004.FBX
+[2015.08.25-13.17.56:042][616]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.25-13.17.56:046][616]LogFbx:Warning: Triangulating static mesh Axe_Middle
+[2015.08.25-13.17.56:074][616]LogFbx:Warning: Triangulating static mesh Axe_Blade
+[2015.08.25-13.17.56:190][616]LogFbx:Warning: Triangulating static mesh Axe_Crown
+[2015.08.25-13.17.56:204][616]LogFbx:Warning: Triangulating static mesh Corwn_connector
+[2015.08.25-13.17.56:208][616]LogFbx:Warning: Triangulating static mesh Ring
+[2015.08.25-13.17.56:238][616]LogStaticMesh: Building static mesh Axe_unwrapped_004...
+[2015.08.25-13.17.56:330][616]LogStaticMesh: Built static mesh [0.094765.2s] /Game/Blueprints/Textures/Axe_unwrapped_004.Axe_unwrapped_004
+[2015.08.25-13.17.56:357][616]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.08.25-13.17.56:400][616]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.18.00:972][717]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.18.01:378][726]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.18.01:543][726]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.08.25-13.18.32:727][492]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.08.25-13.18.36:955][581]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.18.43:636][748]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.18.43:798][748]LogSavePackage: Save=58.673138ms
+[2015.08.25-13.18.43:798][748]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/AxeCFE5B49F42E7C6B6B14E33B3CD213A33.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Content/StarterContent/Blueprints/Axe.uasset'
+[2015.08.25-13.18.50:037][910]LogEditorTransaction: Undo Modify Component(s)
+[2015.08.25-13.18.50:110][910]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.18.50:118][910]LogMaterial: 0.000170 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.18.50:131][910]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.18.52:251][961]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.08.25-13.18.52:251][961]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.08.25-13.18.52:251][961]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.08.25-13.18.53:028][980]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.18.53:188][980]LogSavePackage: Save=38.102783ms
+[2015.08.25-13.18.53:188][980]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/AxeBE4E5E2C4BB173E3BBE49BB3F3A0567E.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Content/StarterContent/Blueprints/Axe.uasset'
+[2015.08.25-13.18.53:819][997]BlueprintLog: New page: Compile Axe
+[2015.08.25-13.18.54:196][997]BlueprintEditorCompileResults: Info [0259.06] Compile of Axe successful! [in 376 ms]
+[2015.08.25-13.18.57:277][ 84]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.19.01:278][ 84]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.19.01:308][ 84]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.19.01:318][ 84]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.19.01:384][ 84]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.19.01:443][ 84]LogMaterial: Missing cached shader map for material Axe_Matt_001, compiling. 
+[2015.08.25-13.19.01:469][ 84]LogMaterial: 0.006661 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.08.25-13.19.05:396][185]LogEditorViewport: Clicking on Actor (LMB): Axe_C (Axe)
+[2015.08.25-13.19.18:492][606]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.08.25-13.19.19:540][641]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.08.25-13.19.20:538][678]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.08.25-13.19.22:936][750]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.08.25-13.19.23:831][779]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.08.25-13.19.25:135][824]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.08.25-13.19.25:558][829]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.08.25-13.19.30:523][953]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.25-13.19.30:536][953]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.25-13.19.30:757][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C434900
+[2015.08.25-13.19.30:807][953]LogPlayLevel: PIE:  Blueprint regeneration took 283 ms (1 blueprints)
+[2015.08.25-13.19.30:885][953]PIE: New page: PIE session: SideScrollerExampleMap (25 Aug 2015 15:19:30)
+[2015.08.25-13.19.30:885][953]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.25-13.19.30:992][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.106239s)
+[2015.08.25-13.19.30:994][953]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.25-13.19.30:996][953]LogPlayLevel: PIE: World Init took: (0.003647s)
+[2015.08.25-13.19.30:996][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.111217s)
+[2015.08.25-13.19.31:130][953]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.25-13.19.31:138][953]LogInit: FAudioDevice initialized.
+[2015.08.25-13.19.31:381][953]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.25-13.19.31:504][953]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.25-14.19.31
+[2015.08.25-13.19.31:505][953]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.25-13.19.31:513][953]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.25-13.19.31:526][953]LogWorld: Bringing up level for play took: 0.118839
+[2015.08.25-13.19.31:569][953]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.941
+[2015.08.25-13.19.40:401][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007D65B6A0
+[2015.08.25-13.23.58:407][416]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.23.59:605][442]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.24.00:414][460]LogEditorFactories: Performing atomic reimport of [C:/Users/Memeseco/Desktop/Axe_Diffuse_001.png]
+[2015.08.25-13.24.00:414][460]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Memeseco/Desktop/Axe_Diffuse_001.png)
+[2015.08.25-13.24.00:494][460]LogTexture:Display: Building textures: Axe_Diffuse_001 (AutoDXT)
+[2015.08.25-13.24.01:143][460]LogEditorFactories: -- imported successfully
+[2015.08.25-13.24.01:164][460]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.24.11:963][733]LogEditorViewport: Clicking on Actor (LMB): Axe_C (Axe)
+[2015.08.25-13.24.12:805][761]Cmd: DUPLICATE
+[2015.08.25-13.24.12:805][761]Cmd: ACTOR DUPLICATE
+[2015.08.25-13.24.20:994][ 61]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.25-13.24.21:007][ 61]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.25-13.24.21:243][ 61]LogPlayLevel: PIE:  Blueprint regeneration took 249 ms (1 blueprints)
+[2015.08.25-13.24.21:243][ 61]PIE: New page: PIE session: SideScrollerExampleMap (25 Aug 2015 15:24:21)
+[2015.08.25-13.24.21:243][ 61]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.25-13.24.21:347][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.104013s)
+[2015.08.25-13.24.21:349][ 61]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.25-13.24.21:351][ 61]LogPlayLevel: PIE: World Init took: (0.003327s)
+[2015.08.25-13.24.21:351][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.108082s)
+[2015.08.25-13.24.21:447][ 61]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.25-13.24.21:470][ 61]LogInit: FAudioDevice initialized.
+[2015.08.25-13.24.21:515][ 61]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.25-13.24.21:558][ 61]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.25-14.24.21
+[2015.08.25-13.24.21:558][ 61]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.25-13.24.21:558][ 61]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.25-13.24.21:560][ 61]LogWorld: Bringing up level for play took: 0.040987
+[2015.08.25-13.24.21:562][ 61]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.068
+[2015.08.25-13.24.24:757][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006145DF80
+[2015.08.25-13.24.28:327][310]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.25-13.24.28:350][310]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.25-13.24.28:581][310]LogPlayLevel: PIE:  Blueprint regeneration took 254 ms (1 blueprints)
+[2015.08.25-13.24.28:582][310]PIE: New page: PIE session: SideScrollerExampleMap (25 Aug 2015 15:24:28)
+[2015.08.25-13.24.28:584][310]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.25-13.24.28:679][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094667s)
+[2015.08.25-13.24.28:680][310]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.25-13.24.28:682][310]LogPlayLevel: PIE: World Init took: (0.002408s)
+[2015.08.25-13.24.28:682][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.097631s)
+[2015.08.25-13.24.28:778][310]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.25-13.24.28:797][310]LogInit: FAudioDevice initialized.
+[2015.08.25-13.24.28:846][310]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.25-13.24.28:880][310]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.25-14.24.28
+[2015.08.25-13.24.28:880][310]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.25-13.24.28:882][310]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.25-13.24.28:889][310]LogWorld: Bringing up level for play took: 0.040925
+[2015.08.25-13.24.28:897][310]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.267
+[2015.08.25-13.24.37:770][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007D3F6020
+[2015.08.25-13.24.40:440][738]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.08.25-13.24.41:229][767]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.08.25-13.24.41:698][775]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.08.25-13.24.44:133][833]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.25-13.24.44:146][833]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.25-13.24.44:412][833]LogPlayLevel: PIE:  Blueprint regeneration took 279 ms (1 blueprints)
+[2015.08.25-13.24.44:412][833]PIE: New page: PIE session: SideScrollerExampleMap (25 Aug 2015 15:24:44)
+[2015.08.25-13.24.44:414][833]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.25-13.24.44:516][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102512s)
+[2015.08.25-13.24.44:520][833]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.25-13.24.44:523][833]LogPlayLevel: PIE: World Init took: (0.006139s)
+[2015.08.25-13.24.44:523][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.109745s)
+[2015.08.25-13.24.44:667][833]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.25-13.24.44:679][833]LogInit: FAudioDevice initialized.
+[2015.08.25-13.24.44:735][833]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.25-13.24.44:769][833]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.25-14.24.44
+[2015.08.25-13.24.44:769][833]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.25-13.24.44:770][833]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.25-13.24.44:773][833]LogWorld: Bringing up level for play took: 0.035454
+[2015.08.25-13.24.44:776][833]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.146
+[2015.08.25-13.24.46:144][890]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2015.08.25-13.24.52:154][134]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007D7927A0
+[2015.08.25-13.24.54:476][190]LogEditorViewport: Clicking on Actor (LMB): Axe_C (Axe2)
+[2015.08.25-13.24.56:923][276]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.24.57:043][276]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.25.43:541][175]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.26.20:041][746]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.26.20:348][746]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007D622C00
+[2015.08.25-13.26.21:244][746]LogSavePackage: Save=896.707642ms
+[2015.08.25-13.26.21:245][746]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/SideScrollerExampleMap_Auto1DE3632B44B3D6A4D73FD8C918A62F4E2.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2015.08.25-13.26.21:251][746]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 1.040
+[2015.08.25-13.26.21:251][746]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.040
+[2015.08.25-13.26.21:272][746]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Textures/Axe_Diffuse_001] ([1] browsable assets)...
+[2015.08.25-13.26.21:305][746]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Blueprints/Textures/Axe_Diffuse_001.Axe_Diffuse_001]
+[2015.08.25-13.26.21:305][746]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Textures/Axe_Diffuse_001]
+[2015.08.25-13.26.21:443][746]LogSavePackage: Save=137.501312ms
+[2015.08.25-13.26.21:443][746]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Axe_Diffuse_001_Auto162AD883845D46F4482DA50B0E6B698A8.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Autosaves/Game/Blueprints/Textures/Axe_Diffuse_001_Auto1.uasset'
+[2015.08.25-13.26.21:471][746]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Textures/Axe_Matt_001] ([1] browsable assets)...
+[2015.08.25-13.26.21:497][746]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Blueprints/Textures/Axe_Matt_001.Axe_Matt_001]
+[2015.08.25-13.26.21:497][746]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Textures/Axe_Matt_001]
+[2015.08.25-13.26.21:518][746]LogSavePackage: Save=14.499026ms
+[2015.08.25-13.26.21:518][746]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Axe_Matt_001_Auto11108A0E242F70579C34814824FF6E46D.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Autosaves/Game/Blueprints/Textures/Axe_Matt_001_Auto1.uasset'
+[2015.08.25-13.26.21:529][746]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Textures/Axe_unwrapped_004] ([1] browsable assets)...
+[2015.08.25-13.26.21:545][746]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Blueprints/Textures/Axe_unwrapped_004.Axe_unwrapped_004]
+[2015.08.25-13.26.21:545][746]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Textures/Axe_unwrapped_004]
+[2015.08.25-13.26.21:558][746]LogSavePackage: Save=12.341730ms
+[2015.08.25-13.26.21:558][746]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Axe_unwrapped_004_Auto11D91906A47F981BFD3164BA976DE7F13.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Autosaves/Game/Blueprints/Textures/Axe_unwrapped_004_Auto1.uasset'
+[2015.08.25-13.26.21:559][746]LogFileHelpers: Auto-saving content packages took 0.292
+[2015.08.25-13.26.48:013][345]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.26.49:176][370]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.26.50:276][370]LogSavePackage: Save=786.549988ms
+[2015.08.25-13.26.50:277][370]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/SideScrollerExampleMap969DA6104CEE54D4A349B2B91F530A41.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2015.08.25-13.26.50:312][370]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.975
+[2015.08.25-13.26.50:402][370]LogSavePackage: Save=26.045361ms
+[2015.08.25-13.26.50:402][370]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Axe_Diffuse_001E5E4E81C42D4EC4F3A93F19357E9BCA2.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Content/Blueprints/Textures/Axe_Diffuse_001.uasset'
+[2015.08.25-13.26.50:444][370]LogSavePackage: Save=1.963040ms
+[2015.08.25-13.26.50:444][370]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Axe_Matt_001D07ADFF844C9E64D0111F09B25B6A8C5.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Content/Blueprints/Textures/Axe_Matt_001.uasset'
+[2015.08.25-13.26.50:553][370]LogSavePackage: Save=11.498448ms
+[2015.08.25-13.26.50:553][370]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Axe_unwrapped_004FCD3D4B547AC40971659DB80C920A8D2.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Content/Blueprints/Textures/Axe_unwrapped_004.uasset'
+[2015.08.25-13.28.28:067][932]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.25-13.28.28:079][932]LogPlayLevel: [PIE] Compiling SideScrollerExampleMap before PIE...
+[2015.08.25-13.28.28:325][932]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010977240
+[2015.08.25-13.28.28:371][932]LogPlayLevel: PIE:  Blueprint regeneration took 304 ms (1 blueprints)
+[2015.08.25-13.28.28:372][932]PIE: New page: PIE session: SideScrollerExampleMap (25 Aug 2015 15:28:28)
+[2015.08.25-13.28.28:374][932]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2015.08.25-13.28.28:486][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.112104s)
+[2015.08.25-13.28.28:488][932]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.08.25-13.28.28:491][932]LogPlayLevel: PIE: World Init took: (0.005122s)
+[2015.08.25-13.28.28:492][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.118301s)
+[2015.08.25-13.28.28:604][932]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.08.25-13.28.28:643][932]LogInit: FAudioDevice initialized.
+[2015.08.25-13.28.28:713][932]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.08.25-13.28.28:762][932]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2015.08.25-14.28.28
+[2015.08.25-13.28.28:762][932]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.25-13.28.28:764][932]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.25-13.28.28:772][932]LogWorld: Bringing up level for play took: 0.053106
+[2015.08.25-13.28.28:779][932]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.147
+[2015.08.25-13.28.33:007][ 61]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2015.08.25-13.28.33:105][ 64]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2015.08.25-13.28.41:872][302]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2015.08.25-13.28.41:873][302]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2015.08.25-13.28.41:893][303]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2015.08.25-13.28.41:976][306]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2015.08.25-13.28.42:005][307]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2015.08.25-13.28.42:040][308]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2015.08.25-13.28.45:451][393]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007D66D620
+[2015.08.25-13.31.31:837][628]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.31.32:705][649]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.31.33:180][660]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.31.37:738][792]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.31.37:882][794]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.31.42:386][814]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.31.42:472][814]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/Memeseco/Desktop/Box-500x500.FBX)
+[2015.08.25-13.31.42:483][814]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.08.25-13.31.42:483][814]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.08.25-13.31.42:483][814]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.08.25-13.31.42:483][814]LogFbx: ItemName: Model, ItemCount : 1
+[2015.08.25-13.31.42:483][814]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.08.25-13.31.42:544][814]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.31.43:730][814]LogFbx: Loading FBX Scene from C:/Users/Memeseco/Desktop/Box-500x500.FBX
+[2015.08.25-13.31.43:741][814]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.25-13.31.43:743][814]LogFbx:Warning: Triangulating static mesh Box001
+[2015.08.25-13.31.43:747][814]LogStaticMesh: Building static mesh Box-500x500...
+[2015.08.25-13.31.43:750][814]LogStaticMesh: Built static mesh [0.005159.2s] /Game/Models/Blocking_out/Blocks/Box-500x500.Box-500x500
+[2015.08.25-13.31.43:770][814]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.08.25-13.31.43:789][814]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.31.46:454][891]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.31.46:529][891]LogActorFactory: Actor Factory created Box-500x500
+[2015.08.25-13.31.49:765][979]LogActorFactory: Actor Factory created Box-500x500
+[2015.08.25-13.31.50:131][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-500x500)
+[2015.08.25-13.31.50:863][  6]Cmd: TRANSACTION UNDO
+[2015.08.25-13.31.50:886][  6]LogEditorTransaction: Undo Clicking on Actors
+[2015.08.25-13.31.50:902][  6]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.32.04:106][372]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.08.25-13.32.15:541][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Box-500x500)
+[2015.08.25-13.32.29:608][  6]Cmd: DELETE
+[2015.08.25-13.32.29:608][  6]Cmd: ACTOR DELETE
+[2015.08.25-13.32.29:609][  6]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.25-13.32.29:624][  6]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.25-13.32.29:706][  6]LogEditorActor: Deleted 1 Actors (0.098 secs)
+[2015.08.25-13.36.57:646][858]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.37.06:645][885]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.37.07:799][885]LogSavePackage: Save=817.813782ms
+[2015.08.25-13.37.07:799][885]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/SideScrollerExampleMap_Auto229C377CF49681E4254133DB762E05F62.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto2.umap'
+[2015.08.25-13.37.07:838][885]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 1.039
+[2015.08.25-13.37.07:838][885]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.039
+[2015.08.25-13.37.07:962][885]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Blocking_out/Blocks/Box-500x500] ([1] browsable assets)...
+[2015.08.25-13.37.07:982][885]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Blocking_out/Blocks/Box-500x500.Box-500x500]
+[2015.08.25-13.37.07:982][885]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Blocking_out/Blocks/Box-500x500]
+[2015.08.25-13.37.07:993][885]LogSavePackage: Save=10.118176ms
+[2015.08.25-13.37.07:993][885]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Box-500x500_Auto2F10CDF1243A2F0877CBD30B89073E95A.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Autosaves/Game/Models/Blocking_out/Blocks/Box-500x500_Auto2.uasset'
+[2015.08.25-13.37.07:994][885]LogFileHelpers: Auto-saving content packages took 0.044
+[2015.08.25-13.39.50:782][421]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.39.53:045][498]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.39.53:253][502]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.39.58:719][671]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.39.59:098][680]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.40.02:012][695]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.40.02:101][695]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/Memeseco/Desktop/Spike_trap_001.FBX)
+[2015.08.25-13.40.02:165][695]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.08.25-13.40.02:165][695]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.08.25-13.40.02:165][695]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.08.25-13.40.02:165][695]LogFbx: ItemName: Model, ItemCount : 9
+[2015.08.25-13.40.02:165][695]LogFbx: ItemName: Geometry, ItemCount : 9
+[2015.08.25-13.40.02:186][695]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.40.07:524][695]LogFbx: Loading FBX Scene from C:/Users/Memeseco/Desktop/Spike_trap_001.FBX
+[2015.08.25-13.40.07:538][695]LogFbx: FBX Scene Loaded Succesfully
+[2015.08.25-13.40.07:561][695]LogFbx:Warning: Triangulating static mesh Spike_trap_frame
+[2015.08.25-13.40.07:572][695]LogFbx:Warning: Triangulating static mesh Breakable_floor
+[2015.08.25-13.40.07:581][695]LogFbx:Warning: Triangulating static mesh Spike_flooring
+[2015.08.25-13.40.07:587][695]LogFbx:Warning: Triangulating static mesh Box002
+[2015.08.25-13.40.07:589][695]LogFbx:Warning: Triangulating static mesh Object001
+[2015.08.25-13.40.07:590][695]LogFbx:Warning: Triangulating static mesh Object002
+[2015.08.25-13.40.07:591][695]LogFbx:Warning: Triangulating static mesh Spike_001
+[2015.08.25-13.40.07:593][695]LogFbx:Warning: Triangulating static mesh Object004
+[2015.08.25-13.40.07:594][695]LogFbx:Warning: Triangulating static mesh Object005
+[2015.08.25-13.40.07:599][695]LogStaticMesh: Building static mesh Spike_trap_001...
+[2015.08.25-13.40.07:620][695]LogStaticMesh: Built static mesh [0.024131.2s] /Game/Models/Blocking_out/Spike_trap/Spike_trap_001.Spike_trap_001
+[2015.08.25-13.40.07:622][695]LogStaticMesh:Warning: Spike_trap_001 has degenerate tangent bases which will result in incorrect shading. 
+[2015.08.25-13.40.07:661][695]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.08.25-13.40.07:661][695]FBXImport:Warning: Warning Spike_trap_001 has degenerate tangent bases which will result in incorrect shading.  
+[2015.08.25-13.40.07:694][695]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.40.12:177][863]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.40.12:289][865]LogActorFactory: Actor Factory created Spike_trap_001
+[2015.08.25-13.40.13:478][903]LogActorFactory: Actor Factory created Spike_trap_001
+[2015.08.25-13.40.23:844][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_02_Mesh4)
+[2015.08.25-13.40.25:627][322]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_02_Mesh5)
+[2015.08.25-13.40.26:597][351]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Pillar_02_Mesh11)
+[2015.08.25-13.40.33:712][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Spike_trap_001)
+[2015.08.25-13.40.37:294][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Spikes)
+[2015.08.25-13.40.38:694][705]Cmd: DELETE
+[2015.08.25-13.40.38:694][705]Cmd: ACTOR DELETE
+[2015.08.25-13.40.38:695][705]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.08.25-13.40.38:711][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement6E44E3BE4F1122F023BEA1AE158EEB33) Not registered. Aborting.
+[2015.08.25-13.40.38:763][705]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2015.08.25-13.40.39:213][718]LogEditorViewport: Clicking on Actor (LMB): Spikes_C (Spikes2)
+[2015.08.25-13.40.39:660][728]Cmd: DELETE
+[2015.08.25-13.40.39:660][728]Cmd: ACTOR DELETE
+[2015.08.25-13.40.39:662][728]LogEditorActor: Deleted Actor: Spikes_C
+[2015.08.25-13.40.39:747][728]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2015.08.25-13.40.40:427][747]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Spike_trap_001)
+[2015.08.25-13.40.43:509][846]LogEditorViewport: Clicking on Actor (LMB): Spikes_C (Spikes3)
+[2015.08.25-13.40.45:393][910]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.40.45:474][910]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.40.51:246][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Spike_trap_001)
+[2015.08.25-13.40.53:146][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Spike_trap_001)
+[2015.08.25-13.40.53:700][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Spike_trap_001)
+[2015.08.25-13.41.03:569][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Spike_trap_001)
+[2015.08.25-13.41.12:662][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Spike_trap_001)
+[2015.08.25-13.41.18:654][888]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Spike_trap_001)
+[2015.08.25-13.41.18:716][888]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.41.19:556][917]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.41.19:623][918]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.41.21:911][  2]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Spike_trap_001)
+[2015.08.25-13.41.21:928][  2]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.41.22:828][ 26]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.41.23:328][ 26]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.42.13:877][815]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.46.59:793][ 35]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.47.08:798][ 62]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.47.09:013][ 62]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007D57D6C0
+[2015.08.25-13.47.10:209][ 62]LogSavePackage: Save=1040.176025ms
+[2015.08.25-13.47.10:209][ 62]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/SideScrollerExampleMap_Auto38753D92D4F8ECA86C10D05ABFB6D2B3A.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto3.umap'
+[2015.08.25-13.47.10:254][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 1.313
+[2015.08.25-13.47.10:254][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.313
+[2015.08.25-13.47.10:269][ 62]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Blocking_out/Spike_trap/Spike_trap_001] ([1] browsable assets)...
+[2015.08.25-13.47.10:295][ 62]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Blocking_out/Spike_trap/Spike_trap_001.Spike_trap_001]
+[2015.08.25-13.47.10:296][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Blocking_out/Spike_trap/Spike_trap_001]
+[2015.08.25-13.47.10:311][ 62]LogSavePackage: Save=13.869878ms
+[2015.08.25-13.47.10:311][ 62]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Spike_trap_001_Auto3DCD236664740D87AC749398A936B88C3.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Autosaves/Game/Models/Blocking_out/Spike_trap/Spike_trap_001_Auto3.uasset'
+[2015.08.25-13.47.10:312][ 62]LogFileHelpers: Auto-saving content packages took 0.056
+[2015.08.25-13.49.27:625][532]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.49.28:941][556]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.49.30:572][586]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.49.31:980][613]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.49.32:346][618]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.49.32:376][618]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.49.33:316][634]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.51.08:812][708]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.08.25-13.51.13:739][806]Cmd: UpdateLandscapeEditorData
+[2015.08.25-13.51.16:646][876]Cmd: UpdateLandscapeEditorData
+[2015.08.25-13.51.34:153][272]Cmd: TRANSACTION UNDO
+[2015.08.25-13.51.34:153][272]LogEditorTransaction: Undo Set actor scale
+[2015.08.25-13.51.34:242][272]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.08.25-13.51.34:375][272]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.51.34:380][272]Cmd: TRANSACTION UNDO
+[2015.08.25-13.51.34:380][272]LogEditorTransaction: Undo Set actor scale
+[2015.08.25-13.51.34:568][273]Cmd: UpdateLandscapeEditorData
+[2015.08.25-13.51.34:680][274]Cmd: TRANSACTION UNDO
+[2015.08.25-13.51.34:680][274]LogEditorTransaction: Undo Clicking on Actors
+[2015.08.25-13.51.34:874][275]Cmd: TRANSACTION UNDO
+[2015.08.25-13.51.34:874][275]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.08.25-13.51.46:568][548]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.51.47:746][568]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007D5B58A0
+[2015.08.25-13.51.47:832][568]LogD3D11RHI: InitD3DDevice
+[2015.08.25-13.51.49:661][568]LogSavePackage: Save=830.609375ms
+[2015.08.25-13.51.49:661][568]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/SideScrollerExampleMap0B969B04456EBA313E604AB5FA19EE13.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2015.08.25-13.51.49:703][568]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.732
+[2015.08.25-13.51.49:852][568]LogSavePackage: Save=12.566706ms
+[2015.08.25-13.51.49:852][568]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Box-500x5006F95C3EF4820F3DE289ABF8EE7BA50F8.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Content/Models/Blocking_out/Blocks/Box-500x500.uasset'
+[2015.08.25-13.51.49:947][568]LogSavePackage: Save=9.427891ms
+[2015.08.25-13.51.49:947][568]LogSavePackage: Moving 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Saved/Spike_trap_00199F97244471B21E06CC456AEE98B7519.tmp' to 'C:/Users/Memeseco/Documents/Unreal Projects/Testing groun_main/Backup_week2/SSPlatformer/UnrealGame/SS_testing_ground/Content/Models/Blocking_out/Spike_trap/Spike_trap_001.uasset'
+[2015.08.25-13.51.51:587][590]Cmd: QUIT_EDITOR
+[2015.08.25-13.51.52:159][590]LogExit: Preparing to exit.
+[2015.08.25-13.51.53:333][590]LogExit: Editor shut down
+[2015.08.25-13.51.53:333][590]LogExit: Transaction tracking system shut down
+[2015.08.25-13.51.53:340][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031F4A160
+[2015.08.25-13.51.53:341][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DA739C0
+[2015.08.25-13.51.53:341][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DBFD760
+[2015.08.25-13.51.53:341][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FF78EA0
+[2015.08.25-13.51.53:341][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FF79A80
+[2015.08.25-13.51.53:341][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000354A7CE0
+[2015.08.25-13.51.53:342][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C4A6340
+[2015.08.25-13.51.54:463][590]LogExit: Object subsystem successfully closed.
+[2015.08.25-13.51.54:965][590]LogD3D11RHI: Shutdown
+[2015.08.25-13.51.54:965][590]LogD3D11RHI: CleanupD3DDevice
+[2015.08.25-13.51.55:416][590]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.08.25-13.51.55:601][590]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (190)
+[2015.08.25-13.51.55:601][590]LogModuleManager: Shutting down and abandoning module MaterialEditor (189)
+[2015.08.25-13.51.55:602][590]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.08.25-13.51.55:602][590]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.08.25-13.51.55:602][590]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.08.25-13.51.55:602][590]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.08.25-13.51.55:615][590]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.08.25-13.51.55:629][590]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.08.25-13.51.55:629][590]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.08.25-13.51.55:641][590]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.08.25-13.51.55:652][590]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.08.25-13.51.55:656][590]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.08.25-13.51.55:668][590]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.08.25-13.51.55:668][590]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.08.25-13.51.55:668][590]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.08.25-13.51.55:668][590]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.08.25-13.51.55:668][590]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.08.25-13.51.55:672][590]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.08.25-13.51.55:672][590]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.08.25-13.51.55:672][590]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.08.25-13.51.55:672][590]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.08.25-13.51.55:672][590]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.08.25-13.51.55:690][590]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.08.25-13.51.55:701][590]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.08.25-13.51.55:724][590]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.08.25-13.51.55:724][590]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.08.25-13.51.55:728][590]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.08.25-13.51.55:728][590]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.08.25-13.51.55:959][590]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.08.25-13.51.55:959][590]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.08.25-13.51.55:959][590]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.08.25-13.51.55:959][590]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.08.25-13.51.55:969][590]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.08.25-13.51.55:970][590]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.08.25-13.51.55:981][590]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.08.25-13.51.55:981][590]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.08.25-13.51.55:989][590]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.08.25-13.51.55:989][590]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.08.25-13.51.55:996][590]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.08.25-13.51.56:003][590]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.08.25-13.51.56:003][590]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.08.25-13.51.56:003][590]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.08.25-13.51.56:008][590]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.08.25-13.51.56:008][590]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.08.25-13.51.56:008][590]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.08.25-13.51.56:008][590]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.08.25-13.51.56:042][590]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.08.25-13.51.56:042][590]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.08.25-13.51.56:058][590]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.08.25-13.51.56:067][590]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.08.25-13.51.56:072][590]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.08.25-13.51.56:077][590]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.08.25-13.51.56:077][590]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.08.25-13.51.56:081][590]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.08.25-13.51.56:089][590]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.08.25-13.51.56:101][590]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.08.25-13.51.56:119][590]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.08.25-13.51.56:120][590]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.08.25-13.51.56:120][590]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.08.25-13.51.56:120][590]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.08.25-13.51.56:204][590]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.08.25-13.51.56:222][590]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.08.25-13.51.56:222][590]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.08.25-13.51.56:222][590]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.08.25-13.51.56:227][590]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.08.25-13.51.56:227][590]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.08.25-13.51.56:249][590]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.08.25-13.51.56:260][590]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.08.25-13.51.56:260][590]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.08.25-13.51.56:269][590]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.08.25-13.51.56:269][590]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.08.25-13.51.56:272][590]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.08.25-13.51.56:272][590]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.08.25-13.51.56:272][590]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.08.25-13.51.56:272][590]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.08.25-13.51.56:282][590]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.08.25-13.51.56:282][590]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.08.25-13.51.56:282][590]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.08.25-13.51.56:408][590]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.08.25-13.51.56:414][590]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.08.25-13.51.56:414][590]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.08.25-13.51.56:414][590]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.08.25-13.51.56:414][590]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.08.25-13.51.56:414][590]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.08.25-13.51.56:414][590]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.08.25-13.51.56:477][590]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.08.25-13.51.56:478][590]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.08.25-13.51.56:483][590]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.08.25-13.51.56:505][590]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.08.25-13.51.56:516][590]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.08.25-13.51.56:516][590]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.08.25-13.51.56:525][590]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.08.25-13.51.56:533][590]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.08.25-13.51.56:537][590]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.08.25-13.51.56:549][590]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.08.25-13.51.56:549][590]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.08.25-13.51.56:559][590]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.08.25-13.51.56:568][590]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.08.25-13.51.56:577][590]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.08.25-13.51.56:589][590]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.08.25-13.51.56:589][590]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.08.25-13.51.56:589][590]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.08.25-13.51.56:589][590]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.08.25-13.51.56:595][590]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.08.25-13.51.56:612][590]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.08.25-13.51.56:612][590]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.08.25-13.51.56:613][590]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.08.25-13.51.56:613][590]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.08.25-13.51.56:626][590]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.08.25-13.51.56:629][590]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.08.25-13.51.56:638][590]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.08.25-13.51.56:738][590]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.08.25-13.51.56:750][590]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.08.25-13.51.56:778][590]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.08.25-13.51.56:778][590]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.08.25-13.51.56:800][590]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.08.25-13.51.56:800][590]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.08.25-13.51.56:800][590]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.08.25-13.51.56:819][590]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.08.25-13.51.56:829][590]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.08.25-13.51.56:839][590]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.08.25-13.51.56:840][590]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.08.25-13.51.56:840][590]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.08.25-13.51.56:841][590]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.08.25-13.51.56:853][590]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.08.25-13.51.56:861][590]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.08.25-13.51.56:873][590]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.08.25-13.51.56:873][590]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.08.25-13.51.56:911][590]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.08.25-13.51.56:911][590]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.08.25-13.51.56:911][590]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.08.25-13.51.56:911][590]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.08.25-13.51.56:912][590]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.08.25-13.51.56:912][590]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.08.25-13.51.56:912][590]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.08.25-13.51.56:912][590]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.08.25-13.51.56:912][590]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.08.25-13.51.56:929][590]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.08.25-13.51.56:942][590]LogDerivedDataCache: Shutdown
+[2015.08.25-13.51.56:942][590]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.08.25-13.51.56:946][590]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.08.25-13.51.56:956][590]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.08.25-13.51.56:960][590]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.08.25-13.51.56:960][590]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.08.25-13.51.56:967][590]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.08.25-13.51.56:972][590]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.08.25-13.51.56:972][590]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.08.25-13.51.56:972][590]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.08.25-13.51.56:972][590]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.08.25-13.51.56:972][590]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.08.25-13.51.56:979][590]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.08.25-13.51.56:985][590]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.08.25-13.51.56:985][590]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.08.25-13.51.56:985][590]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.08.25-13.51.56:994][590]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.08.25-13.51.57:001][590]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.08.25-13.51.57:001][590]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.08.25-13.51.57:001][590]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.08.25-13.51.57:001][590]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.08.25-13.51.57:001][590]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.08.25-13.51.57:001][590]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.08.25-13.51.57:001][590]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.08.25-13.51.57:001][590]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.08.25-13.51.57:001][590]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.08.25-13.51.57:001][590]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.08.25-13.51.57:001][590]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.08.25-13.51.57:001][590]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.08.25-13.51.57:002][590]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.08.25-13.51.57:002][590]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.08.25-13.51.57:002][590]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.08.25-13.51.57:002][590]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.25-13.51.57:002][590]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.25-13.51.57:002][590]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.25-13.51.57:002][590]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.25-13.51.57:002][590]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.08.25-13.51.57:003][590]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.25-13.51.57:003][590]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.25-13.51.57:003][590]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.25-13.51.57:009][590]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.25-13.51.57:009][590]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.25-13.51.57:032][590]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.25-13.51.57:044][590]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.25-13.51.57:045][590]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.25-13.51.57:045][590]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.25-13.51.57:045][590]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.25-13.51.57:045][590]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.25-13.51.57:063][590]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.25-13.51.57:080][590]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.25-13.51.57:104][590]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.25-13.51.57:164][590]LogExit: Exiting.
+[2015.08.25-13.51.57:291][590]Log file closed, 08/25/15 14:51:57
